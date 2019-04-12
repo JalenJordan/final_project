@@ -1,0 +1,529 @@
+@media(min-width: 320px){
+     body{
+          background-image: url(../images/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png);
+          color: white;
+     }
+     .xsheader{
+          background: #001e34;
+          color: white;
+     }
+     .xscontacts li{
+          display: inline-block;
+          text-align: center;
+          margin-right: 5%;
+     }
+     .xscontacts a{
+          color: white;
+     }
+
+     .xsnavbar{
+          background: #085394b0;
+     }
+     .xsnavbar img{
+          padding-left: 15%;
+     }
+     .xsmenu{
+          display: none;
+     }
+     .xsmenu li{
+          display: inline;
+          padding-left: 0;
+          margin-right: 10px;
+     }
+     .xsmenu a{
+          color: orange;
+          font-size: 15px;
+     }
+
+     .icons{
+          display: inline-flex;
+          padding-left: 0px;
+          text-align: center;
+     }
+     .icons li{
+          list-style: none;
+          margin-right: 20px;
+     }
+
+     .icons img{
+          width: 77px;
+     }
+
+     .footer{
+          background: #144f827a;
+     }
+     ul{
+          list-style: none;
+     }
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+
+     .nav-col a{
+          color: white;
+     }
+
+     .xstitle{
+          text-align: center;
+     }
+
+     .features{
+          text-align: center;
+     }
+
+     .sorter2 h4{
+          text-align: center;
+          margin-top: 5%;
+     }
+}
+
+@media(min-width: 375px){
+     .xsheader{
+          background: #001e34;
+          color: white;
+     }
+     .xscontacts li{
+          display: inline-block;
+          text-align: center;
+          margin-right: 10%;
+     }
+     .xscontacts a{
+          color: white;
+     }
+
+     .xsnavbar{
+          background: #085394b0;
+     }
+     .xsnavbar img{
+          padding-left: 20%;
+     }
+     .xsmenu{
+          display: none;
+     }
+     .xsmenu li{
+          display: inline;
+          padding-left: 0;
+          margin-right: 20px;
+     }
+     .xsmenu a{
+          color: orange;
+          font-size: 15px;
+     }
+
+     .icons{
+          display: inline-flex;
+          padding-left: 0px;
+          text-align: center;
+     }
+     .icons li{
+          list-style: none;
+          margin-right: 20px;
+     }
+
+     .icons img{
+          width: 100px;
+     }
+
+     .icons{
+          color: orangered;
+          text-shadow: #001e34;
+          font-size: larger;
+          font-weight: bolder;
+     }
+
+     .footer{
+          background: #144f827a;
+     }
+     ul{
+          list-style: none;
+     }
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+
+     .nav-col a{
+          color: white;
+     }
+
+     .xstitle{
+          text-align: center;
+     }
+
+     .features{
+          text-align: center;
+     }
+
+     .sorter2 h4{
+          text-align: center;
+          margin-top: 5%;
+     }
+}
+
+@media(min-width: 425px){
+     .xsheader{
+          background: #001e34;
+          color: white;
+     }
+     .xscontacts li{
+          display: inline-block;
+          text-align: center;
+          margin-right: 13%;
+     }
+     .xscontacts a{
+          color: white;
+     }
+
+     .slick-slide img{
+          margin-left: 9%;
+     }
+
+     .xsnavbar{
+          background: #085394b0;
+     }
+     .xsnavbar img{
+          padding-left: 25%;
+     }
+     .xsmenu{
+          display: none;
+     }
+     .xsmenu li{
+          padding-left: 0;
+          margin-right: 15px;
+     }
+     .xsmenu a{
+          color: orange;
+          font-size: 20px;
+     }
+
+     .icons{
+          display: inline-flex;
+          padding-left: 0px;
+          text-align: center;
+     }
+     .icons li{
+          list-style: none;
+          margin-right: 20px;
+     }
+
+     .icons img{
+          width: 114px;
+     }
+
+     .icons{
+          color: orangered;
+          text-shadow: #001e34;
+          font-size: larger;
+          font-weight: bolder;
+     }
+
+     .footer{
+          background: #144f827a;
+     }
+     ul{
+          list-style: none;
+     }
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+
+     .nav-col a{
+          color: white;
+     }
+
+     .xstitle{
+          text-align: center;
+     }
+
+     .features{
+          text-align: center;
+     }
+
+     .sorter2 h4{
+          text-align: center;
+          margin-top: 5%;
+     }
+}
+
+@media(min-width: 768px){
+     .header{
+          background:#1471b557;
+          color: white;
+     }
+     .searchbar{
+          width: 50%;
+          margin-top: 20px;
+     }
+     .searchbtn{
+          background: orange;
+          color: white;
+          border: orange solid 2px;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+     }
+     .contacts{
+          padding-left: 0;
+          text-align: center;
+     }
+     .contacts a{
+          color: white;
+     }
+     .contacts ul{
+          list-style: none;
+          padding-left: 0;
+     }
+     .contacts li{
+          display: inline;
+          margin-right: 20px;
+     }
+
+     .accounts{
+          padding-left: 0;
+          text-align: justify;
+     }
+     .accounts a{
+          color: white;
+     }
+     .accounts ul{
+          list-style: none;
+     }
+     .accounts li{
+          display: inline;
+          margin-right: 10px;
+     }
+     
+     .navbar{
+          color: white;
+          padding-top: 10px;
+     }
+     .menu{
+          padding-left: 0;
+     }
+     .menu li{
+          display: inline;
+          margin-right: 5px;
+     }
+     .menu a{
+          color: orange;
+          font-size: 20px;
+     }
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+          text-align: center;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+}
+@media(min-width: 1440px){
+     body{
+          color: white;
+          background-image: url(../images/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png)
+     }
+     
+     ul{
+          list-style: none;
+     }
+
+     .nav-col a{
+          color: white;
+     }
+
+     .header{
+          color: white;
+          background: #00aee766;
+     }
+     .header .accounts a{
+          color: white;
+     
+     }
+     
+     
+     .accounts>a{
+          color: white;
+     }
+     .accounts>li{
+          display: inline;
+          margin-right: 20px;
+     }
+     
+     
+     .contacts>li{
+          display: inline;
+          margin-right: 20px;
+     }
+     .contacts>li>a{
+          color: white;
+     }
+     
+     .accounts>a{
+          color: white;
+     }
+     
+     .navbar{
+          padding: 11px 0;
+          margin-bottom: -89px;
+          background: #00203a8a;
+     }
+     
+     .menu{
+          text-align: center;
+          margin-top: 33px;
+          margin-bottom: 0px;
+     }
+     .menu>li{
+          display: inline;
+          margin-right: 37px;
+          font-size: 25px;
+     }
+     .menu>li>a{
+          color: orange;
+     }
+     
+     .title{
+          text-align: center;
+          font-size: 30px;
+          margin-top: 5%;
+          margin-bottom: 100px;
+     }
+     
+     .firstsection{
+          display: inline-flex;
+          text-align: center;
+     }
+     .firstsection>li{
+          display: inline;
+          margin-right: 20px;
+     }
+     .firstsection img,.secondsection img, .thirdsection img{
+          transition: all 0.2s ease-in-out;
+     }
+     .firstsection img:hover, .secondsection img:hover, .thirdsection img:hover{
+          transform: scale(1.125);
+     }
+     
+     .secondsection{
+          display: inline-flex;
+          text-align: center;
+     }
+     .secondsection>li{
+          display: inline;
+          margin-right: 25px;
+     }
+     
+     
+     .sorter{
+          padding-left: 0px;
+          padding-right: 30px;
+     }
+     .sorter>li{
+          display: inline-block;
+          color: orange;
+     }
+     .filter{
+          margin-right: 30px;
+     }
+     .filter2{
+          margin-top: 70%;
+          margin-right: 30px;
+     }
+     
+     .thirdsection{
+          display: inline-flex;
+          text-align: center;
+     }
+     .thirdsection>li{
+          display: inline;
+          margin-right: 25px;
+     }
+     
+     .features{
+          text-align: center;
+     }
+     
+     .product-list img{
+          transition: all 0.2s ease-in-out;
+     }
+     
+     .product-list img:hover{
+          transform: scale(1.125);
+     }
+     
+     .slick-slide>img{
+          margin-left: 35%;
+     }
+     
+     button.slick-prev.slick-arrow{
+          float:left;
+          color: black;
+     }
+     button.slick-next.slick-arrow{
+          color: black;
+          position: absolute;
+          top: -2%;
+          left: 105%;
+     }
+
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+          text-align: center;
+     }
+
+     .footer{
+          width: auto;
+          text-align: center;
+          padding-left: 333px;
+          background: #144f827a;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+}
