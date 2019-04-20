@@ -1,0 +1,552 @@
+@media(min-width: 320px){
+     body{
+          background-image: url(../images/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png)
+     }
+
+     .xsheader{
+          background: #001e34;
+          color: white;
+     }
+     .xscontacts li{
+          display: inline-block;
+          text-align: center;
+          margin-right: 5%;
+     }
+     .xscontacts a{
+          color: white;
+     }
+
+     .xsnavbar{
+          background: #085394b0;
+     }
+     .xsnavbar img{
+          padding-left: 15%;
+     }
+     .xsmenu{
+          display: none;
+     }
+     .xsmenu li{
+          display: inline;
+          padding-left: 0;
+          margin-right: 10px;
+     }
+     .xsmenu a{
+          color: orange;
+          font-size: 15px;
+     }
+
+     .xsnewProduct h4{
+          color: white;
+          font-weight: bold;
+          text-align: center;
+     }
+
+     .xsproducts{
+          color: white;
+     }
+     .xsproduct-list{
+          padding-left: 0;
+     }
+     .xsproduct-list li{
+          display: inline;
+     }
+     .xsproduct-list a{
+          color: white;
+     }
+
+
+     .footer{
+          background: #144f827a;
+     }
+     ul{
+          list-style: none;
+     }
+     
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+
+     .nav-col a{
+          color: white;
+     }
+}
+
+@media(min-width:375px){
+     .xscontacts li{
+          display: inline-block;
+          text-align: center;
+          margin-right: 10%;
+     }
+     .xscontacts a{
+          color: white;
+     }
+
+     .xsnavbar{
+          background: #085394b0;
+     }
+     .xsnavbar img{
+          padding-left: 20%;
+     }
+     .xsmenu{
+          display: none;
+     }
+     .xsmenu li{
+          display: inline;
+          text-align: center;
+          margin-right: 20px;
+     }
+     .xsmenu a{
+          color: orange;
+          font-size: 15px;
+     }
+
+     .xsnewProduct h4{
+          color: white;
+          font-weight: bold;
+          text-align: center;
+     }
+
+     .xsproducts{
+          color: white;
+     }
+     .xsproduct-list{
+          padding-left: 5%;
+     }
+     .xsproduct-list li{
+          display: inline;
+     }
+     .xsproduct-list a{
+          color: white;
+     }
+
+     ul{
+          list-style: none;
+     }
+     
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+
+     .nav-col a{
+          color: white;
+     }
+
+     .footer{
+          background: #144f827a;
+     }
+}
+
+@media(min-width:425px){
+     .xscontacts li{
+          display: inline-block;
+          text-align: center;
+          margin-right: 13%;
+     }
+     .xscontacts a{
+          color: white;
+     }
+
+     .xsnavbar{
+          background: #085394b0;
+     }
+     .xsnavbar img{
+          padding-left: 25%;
+     }
+     .xsmenu{
+          display: none;
+     }
+     .xsmenu li{
+          padding-left: 0;
+          margin-right: 15px;
+     }
+     .xsmenu a{
+          color: orange;
+          font-size: 20px;
+     }
+
+     .xsnewProduct h4{
+          color: white;
+          font-weight: bold;
+          text-align: center;
+     }
+
+     .xsproducts{
+          color: white;
+          text-align: center;
+     }
+     .xsproduct-list{
+          padding-left: 8%;
+     }
+     .xsproduct-list li{
+          display: inline;
+     }
+     .xsproduct-list a{
+          color: white;
+     }
+     
+     ul{
+          list-style: none;
+     }
+     
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+}
+
+@media(min-width: 768px){
+     .header{
+          background:#1471b557;
+          color: white;
+     }
+     .searchbar{
+          width: 50%;
+          margin-top: 20px;
+     }
+     .searchbtn{
+          background: orange;
+          color: white;
+          border: orange solid 2px;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+     }
+     .contacts{
+          padding-left: 0;
+          text-align: center;
+     }
+     .contacts a{
+          color: white;
+     }
+     .contacts ul{
+          list-style: none;
+          padding-left: 0;
+     }
+     .contacts li{
+          display: inline;
+          margin-right: 20px;
+     }
+
+     .accounts{
+          padding-left: 0;
+          text-align: justify;
+     }
+     .accounts a{
+          color: white;
+     }
+     .accounts ul{
+          list-style: none;
+     }
+     .accounts li{
+          display: inline;
+          margin-right: 10px;
+     }
+     
+     .navbar{
+          color: white;
+          padding-top: 10px;
+     }
+     .menu{
+          padding-left: 0;
+     }
+     .menu li{
+          display: inline;
+          margin-right: 5px;
+     }
+     .menu a{
+          color: orange;
+          font-size: 20px;
+     }
+
+     .newProduct h4{
+          text-align: center;
+          color: white;
+          font-family: monospace;
+          font-size: 30px;
+     }
+
+     .sproducts{
+          color: white;
+          text-align: center;
+          font-family: monospace;
+     }
+
+     .sproduct-list img{
+          transition: all 0.5s ease-in-out;
+     }
+     .sproduct-list img:active{
+          transform: scale(1.125);
+     }
+
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+          text-align: center;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+}
+
+@media(min-width: 1024px){
+     .header{
+          background: #1471b557;
+          color: white;
+          width: 107%;
+     }
+     .searchbar{
+          width: 50%;
+          margin-top: 20px;
+          margin-left: 25%;
+     }
+     .searchbtn{
+          background: orange;
+          color: white;
+          border: orange solid 2px;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+     }
+     .contacts{
+          padding-left: 0;
+          text-align: justify;
+     }
+     .contacts a{
+          color: white;
+     }
+     .contacts ul{
+          list-style: none;
+          padding-left: 0;
+     }
+     .contacts li{
+          display: inline;
+          margin-right: 20px;
+     }
+
+     .accounts{
+          padding-left: 0;
+          text-align: justify;
+     }
+     .accounts a{
+          color: white;
+     }
+     .accounts ul{
+          list-style: none;
+     }
+     .accounts li{
+          display: inline;
+          margin-right: 10px;
+     }
+     
+     .navbar{
+          color: white;
+          padding-top: 10px;
+     }
+     .menu{
+          padding-left: 0;
+          margin-left: 30%;
+     }
+     .menu li{
+          display: inline;
+          margin-right: 5px;
+     }
+     .menu a{
+          color: orange;
+          font-size: 20px;
+     }
+
+     .newProduct h4{
+          text-align: center;
+          color: white;
+          font-family: monospace;
+          font-size: 30px;
+     }
+
+     .sproducts{
+          color: white;
+          text-align: center;
+          font-family: monospace;
+     }
+
+     .sproduct-list img{
+          transition: all 0.5s ease-in-out;
+     }
+     .sproduct-list img:active{
+          transform: scale(1.125);
+     }
+
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+          text-align: center;
+     }
+
+     .footer{
+          padding-left: 150px;
+          width: max-content;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+}
+
+@media(min-width: 1440px){
+     .header{
+          background: #1471b557;
+          color: white;
+     }
+     .searchbar{
+          width: 50%;
+          margin-top: 20px;
+          margin-left: 25%;
+     }
+     .searchbtn{
+          background: orange;
+          color: white;
+          border: orange solid 2px;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+     }
+     .contacts{
+          padding-left: 0;
+          text-align: justify;
+     }
+     .contacts a{
+          color: white;
+     }
+     .contacts ul{
+          list-style: none;
+          padding-left: 0;
+     }
+     .contacts li{
+          display: inline;
+          margin-right: 20px;
+     }
+
+     .accounts{
+          padding-left: 0;
+          text-align: center;
+     }
+     .accounts a{
+          color: white;
+     }
+     .accounts ul{
+          list-style: none;
+     }
+     .accounts li{
+          display: inline;
+          margin-right: 10px;
+     }
+     
+     .navbar{
+          color: white;
+          padding-top: 10px;
+     }
+     .menu{
+          padding-left: 0;
+          margin-left: 30%;
+          text-align: center;
+     }
+     .menu li{
+          display: inline;
+          margin-right: 8px;
+     }
+     .menu a{
+          color: orange;
+          font-size: 20px;
+     }
+
+     .newProduct h4{
+          text-align: center;
+          color: white;
+          font-family: monospace;
+          font-size: 30px;
+     }
+
+     .sproducts{
+          color: white;
+          text-align: center;
+          font-family: monospace;
+     }
+
+     .sproduct-list img{
+          transition: all 0.5s ease-in-out;
+          vertical-align: sub;
+     }
+     .sproduct-list img:active{
+          transform: scale(1.125);
+     }
+     .sproduct-list2 img{
+          transition: all 0.5s ease-in-out;
+          vertical-align: sub;
+     }
+     .sproduct-list2 img:active{
+          transform: scale(1.125);
+     }
+
+     .nav-col {
+          padding: 30px 12px;
+          width: 25%;
+          box-sizing: border-box;
+          display: table-cell;
+          color: white;
+          text-align: center;
+     }
+
+     .footer{
+          width: auto;
+          text-align: center;
+          padding-left: 333px;
+     }
+
+     .footer-site-map-title{
+          margin-bottom: 16px;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+     }
+}
