@@ -360,7 +360,8 @@
      }
 
      .secondsection{
-          margin-left: 48px;
+          padding-left: 53px;
+          margin-left: 0px;
      }
 
      .search{
@@ -541,7 +542,7 @@
      .footer{
           width: auto;
           text-align: center;
-          padding-left: 20%;
+          /* padding-left: 20%; */
           background: #144f827a;
      }
 
@@ -713,7 +714,6 @@
      .footer{
           width: auto;
           text-align: center;
-          padding-left: 333px;
           background: #144f827a;
      }
 

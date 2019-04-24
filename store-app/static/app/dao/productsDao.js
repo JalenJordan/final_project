@@ -1,4 +1,7 @@
-const Products = require("../model/products");
+const Product = require("../model/product");
+const SubCategory = require("../model/subcategory");
+const Category = require("../model/category");
+const Brand = require("../model/brand");
 const daoCommon = require("./common/daoCommon");
 
 class ProductsDao{
@@ -7,62 +10,82 @@ class ProductsDao{
      }
 
      findAll(){
-          let sqlRequest = "SELECT * FROM Products ORDER BY id ASC";
+          let sqlRequest = "SELECT * FROM Product";
           return this.common.findAll(sqlRequest).then(rows => {
-               let products = [];
+               let product = [];
                console.log(rows);
-               for (const row of rows){
-                    products.push(new Products(
-                         row.id,
-                         row.type,
-                         row.name,
-                         row.price,
-                         row.brand
+               for(const row of rows){
+                    product.push(new Product(
+                       row.id,
+                       row.name,
+                       row.img,
+                       row.price
                     ));
                };
-               return products;
+               return product;
           });
      }
 
-     findByName(name){
-          let sqlRequest = "SELECT * FROM Products WHERE name ='"  +  name + "' ";
-          return this.common.findAll(sqlRequest).then(rows =>{
-               let products = [];
+     findAllProducts(){
+          let sqlRequest = "SELECT * FROM Product";
+          return this.common.findAll(sqlRequest).then(rows => {
+               let product = [];
                console.log(rows);
                for(const row of rows){
-                    products.push(new Products(
+                    product.push(new Product(
                          row.id,
-                         row.type,
                          row.name,
-                         row.price,
-                         row.brand
+                         row.img,
+                         row.price
                     ));
-               }
-               return products;
+               };
+               return product;
           });
      }
 
-     findByType(type){
-          let sqlRequest = "SELECT * FROM Products WHERE type ='" + type + "' ";
-          return this.common.findAll(sqlRequest).then(rows =>{
-               let products = [];
+     findAllCategories(){
+          let sqlRequest = "SELECT * FROM Category";
+          return this.common.findAll(sqlRequest).then(rows => {
+               let category = [];
                console.log(rows);
                for(const row of rows){
-                    products.push(new Products(
+                    category.push(new Category(
                          row.id,
-                         row.type,
-                         row.name,
-                         row.price,
-                         row.brand
+                         row.name
                     ));
-               }
-               return products;
+               };
+               return category;
           });
      }
+     
+     findAllSubCategories(){
+          let sqlRequest = "SELECT * FROM SubCategory";
+          return this.common.findAll(sqlRequest).then(rows => {
+               let subcategory = [];
+               console.log(rows);
+               for(const row of rows){
+                    subcategory.push(new SubCategory(
+                         row.id,
+                         row.name
+                    ));
+               };
+               return subcategory;
+          })
+     }
 
-     findByBrand(brand){
-          let sqlRequest = "SELECT * FROM Products WHERE brand ='" + brand + "' ";
-          return this.common.findAll()
+     findAllBrands(){
+          let sqlRequest = "SELECT * FROM Brand";
+          return this.common.findAll(sqlRequest).then(rows => {
+               let brand = [];
+               console.log(rows);
+               for(const row of rows){
+                    brand.push(new Brand(
+                         row.id,
+                         row.name
+                    ));
+               };
+               return brand;
+          })
      }
 }
 

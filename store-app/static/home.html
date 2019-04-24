@@ -5,9 +5,10 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <meta http-equiv="X-UA-Compatible" content="ie=edge">
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
           <link rel="stylesheet" href="css/bootstrap.css">
           <link rel="stylesheet" href="css/style.css">
-          <title>Jalen's Hardware Store</title>
+          <title>Welcome!!</title>
      </head>
      <body>
           <div class="header">
@@ -15,9 +16,9 @@
                     <div class="row">
                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
                               <ul class="topnav">
-                                   <li class="span3 hidden-xs hidden-sm">Social Media Sharing Links</li>
-                                   <li  class="span hidden-xs hidden-md hidden-lg"><a href="#">s</a></li>
-                                   <li class="span2 hidden-xs hidden-md hidden-lg "><a href="#">s</a></li>
+                                   <li class="span3 hidden-xs hidden-sm"><a>Social Media Sharing Links</a></li>
+                                   <li  class="span hidden-xs hidden-md hidden-lg"><a href="#"> </a></li>
+                                   <li class="span2 hidden-xs hidden-md hidden-lg "><a href="#"> </a></li>
                                    <li class="loginregs2 hidden-xs hidden-sm"><a href="#">Login | Register</a></li>
                                    <li class="checkout hidden-xs hidden-sm"><a href="#">0 items | Checkout</a></li>
                                    <li><a href="#">About</a></li>
@@ -61,11 +62,11 @@
                          <div class="col-md-6 col-lg-6 hidden-sm hidden-xs">
                               <ul class="navbars2">
                                    <li><i class="fa fa-home"></i></li>
-                                   <li>Categories</li>
-                                   <li>About</li>
-                                   <li>ACCESSORIES</li>
-                                   <li>FAQS</li>
-                                   <li>MARKETING</li>
+                                   <li><a href="products.html">Categories</a></li>
+                                   <li><a href="bottom">About</a></li>
+                                   <li><a href="products.html">ACCESSORIES</a></li>
+                                   <li><a href="about">FAQS</a></li>
+                                   <li><a href="#">MARKETING</a></li>
                               </ul>
                          </div>
                     </div>
@@ -89,15 +90,23 @@
                <div class="container">
                     <div class="row">
                          <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
-                              <button class="navbtn"><i class="bars fas fa-bars"></i></button>
+                              <div class="dropdown">
+                                   <button class="navbtn"><i class="bars fas fa-bars"></i></button>
+                                   <div class="dropdown-content">
+                                        <a href="products.html">Gallery</a>
+                                        <a href="">About</a>
+                                        <a href="">ACCESSORIES</a>
+                                        <a href="">FAQS</a>
+                                   </div>
+                              </div>
                          </div>
                          <div class="col-sm-12 hidden-xs hidden-md hidden-lg">
                               <ul class="navbars">
                                    <li><i class="fa fa-home"></i></li>
-                                   <li>Gallery</li>
-                                   <li>About</li>
-                                   <li>ACCESSORIES</li>
-                                   <li>FAQS</li>
+                                   <li><a href="products.html">Gallery</a></li>
+                                   <li><a href="">About</a></li>
+                                   <li><a href="">ACCESSORIES</a></li>
+                                   <li><a href="">FAQS</a></li>
                               </ul>
                          </div>
                     </div>
@@ -108,14 +117,22 @@
                <div class="container">
                     <div class="row">
                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                              <div class="slick-slide">
-                                   <img src="images/Ryzen 3.png" alt="" class="sliders img-responsive">
-                              </div>
-                              <div class="slick-slider">
-                                   <img src="images/Ryzen 5.png" alt="" class="sliders img-responsive">
-                              </div>
-                              <div class="slick-slider">
-                                   <img src="images/Ryzen 7.png" alt="" class="sliders img-responsive">
+                              <div class="feature autoplay">
+                                   <div class="slick-slide">
+                                        <img src="images/Ryzen 3.png" alt="" class="img-responsive">
+                                        <p>Ryzen 3 1200</p>
+                                        <label>$99.99</label>
+                                   </div>
+                                   <div class="slick-slide">
+                                        <img src="images/Ryzen 5.png" alt="" class="img-responsive">
+                                        <p>Ryzen 5 1600</p>
+                                        <label>$149.00</label>
+                                   </div>
+                                   <div class="slick-slide">
+                                        <img src="images/Ryzen 7.png" alt="" class="img-responsive">
+                                        <p>Ryzen 7 1700</p>
+                                        <label>$249.00</label>
+                                   </div>
                               </div>
                          </div>
                     </div>
@@ -173,7 +190,7 @@
                                    <li class="featurefourth">
                                         <img src="images/MSI GeForce RTX 2080 Ventus.png" alt="" class="img-responsive">
                                         <p>MSI GeForce RTX 20180 Ventus    $199.29</p>
-                                        <button class="addbtn">Add              </li>
+                                        <button class="addbtn">Add To Cart</li>
                               </ul>
                               <h4 class="arrow1"><i class="fas fa-arrow-right"></i></h4>
                               <h3 class="viewall">View All</h3>
@@ -218,11 +235,11 @@
                                    <br>
                                    <li class="image"><img src="http://via.placeholder.com/150x80" class="hidden-xs img-responsive" alt=""></li>
                                    <ul class="listpic">
-                                        <li><img class="pic1 img-responsive" src="http://via.placeholder.com/300x200" alt=""></li>
-                                        <li><img class="pic2 img-responsive" src="http://via.placeholder.com/300x200" alt=""></li>
-                                        <li><img class="pic3 img-responsive" src="http://via.placeholder.com/300x200" alt=""></li>
-                                        <li><img class="pic4 img-responsive" src="http://via.placeholder.com/300x200" alt=""></li>
-                                        <li><img class="pic5 img-responsive" src="http://via.placeholder.com/300x200" alt=""></li>
+                                        <li><img class="img-responsive pic1" src="http://via.placeholder.com/300x200" alt=""></li>
+                                        <li><img class="img-responsive pic2" src="http://via.placeholder.com/300x200" alt=""></li>
+                                        <li><img class="img-responsive pic3" src="http://via.placeholder.com/300x200" alt=""></li>
+                                        <li><img class="img-responsive pic4" src="http://via.placeholder.com/300x200" alt=""></li>
+                                        <li><img class="img-responsive pic5" src="http://via.placeholder.com/300x200" alt=""></li>
                                    </ul>
                               </ul>
                          </div>
@@ -319,4 +336,7 @@ src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous">
 </script>
+<script src="slick/slick.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="javascript/rules.js"></script>
 </html>

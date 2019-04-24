@@ -78,7 +78,7 @@
           text-align: center;
      }
 
-     .features{
+     .features3{
           text-align: center;
      }
 
@@ -171,7 +171,7 @@
           text-align: center;
      }
 
-     .features{
+     .features3{
           text-align: center;
      }
 
@@ -267,7 +267,7 @@
           text-align: center;
      }
 
-     .features{
+     .features3{
           text-align: center;
      }
 
@@ -278,11 +278,11 @@
 }
 
 @media(min-width: 768px){
-     .header{
+     .header2{
           background:#1471b557;
           color: white;
      }
-     .searchbar{
+     .searchbar2{
           width: 50%;
           margin-top: 20px;
      }
@@ -360,10 +360,11 @@
      }
 
      .secondsection{
-          margin-left: 48px;
+          padding-left: 53px;
+          margin-left: 0px;
      }
 
-     .search{
+     .search2{
           margin-left: 20%;
      }
 
@@ -385,11 +386,11 @@
           color: white;
      }
 
-     .header{
+     .header2{
           color: white;
           background: #00aee766;
      }
-     .header .accounts a{
+     .header2 .accounts a{
           color: white;
      
      }
@@ -422,9 +423,11 @@
           background: #00203a8a;
      }
      
-     .searchbar{
+     .searchbar2{
           margin-left: 25px;
           width:75%;
+          left: 0;
+          top: 0;
      }
      .searchbtn{
           margin-left: 0px;
@@ -502,7 +505,7 @@
           margin-right: 25px;
      }
      
-     .features{
+     .features3{
           text-align: center;
      }
      
@@ -541,7 +544,7 @@
      .footer{
           width: auto;
           text-align: center;
-          padding-left: 20%;
+          /* padding-left: 20%; */
           background: #144f827a;
      }
 
@@ -566,11 +569,11 @@
           color: white;
      }
 
-     .header{
+     .header2{
           color: white;
           background: #00aee766;
      }
-     .header .accounts a{
+     .header2 .accounts a{
           color: white;
      
      }
@@ -674,7 +677,7 @@
           margin-right: 25px;
      }
      
-     .features{
+     .features3{
           text-align: center;
      }
      
@@ -703,7 +706,7 @@
 
      .nav-col {
           padding: 30px 12px;
-          width: 25%;
+          width: 1%;
           box-sizing: border-box;
           display: table-cell;
           color: white;
@@ -713,7 +716,6 @@
      .footer{
           width: auto;
           text-align: center;
-          padding-left: 333px;
           background: #144f827a;
      }
 

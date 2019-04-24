@@ -1,6 +1,9 @@
 const ProductsDao = require("../dao/productsDao");
 const ControllerCommon = require("./common/controllerCommon");
-const Products = require("../model/products");
+const Product = require("../model/product");
+const Category = require("../model/category");
+const SubCategory = require("../model/subcategory");
+const Brand = require("../model/brand");
 
 class ProductsController{
 
@@ -15,21 +18,29 @@ class ProductsController{
                .catch(this.common.findError(res));
      };
 
-     findByName(req, res){
-          let name = req.params.name;
-          this.productsDao.findByName(name)
+     findAllProducts(res){
+          this.productsDao.findAllProducts()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     }
+
+     findAllSubCategories(res){
+          this.productsDao.findAllSubCategories()
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
      };
 
-     findByType(req, res){
-          let type = req.params.type;
-          this.productsDao.findByType(type)
+     findAllBrands(res){
+          this.productsDao.findAllBrands()
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
      };
 
-     
+     findAllCategories(res){
+          this.productsDao.findAllCategories()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
 }
 
 module.exports = ProductsController;

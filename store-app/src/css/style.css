@@ -1,0 +1,935 @@
+/* body{
+     background-image: url(../images/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png);
+     color:white;
+}
+
+a{
+     color: white;
+} */
+
+@media(min-width: 320px){
+    .header{
+        background: #001e34;
+        color:#97b8d0;
+    }
+    .topnav{
+        text-align: center;
+        padding-left: 0;
+    }
+    .topnav>li{
+        display: inline;
+        margin-left: 12px;
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .cart{
+        color:white;
+        border: solid 0px #97b8d0;
+        background: #97b8d0;
+        width: 20%;
+        text-align: left;
+    }
+    .tag{
+        position: relative;
+        left: 5px;
+        bottom: 18px;
+    }
+
+    .dropdown{
+    position: relative;
+    display: inline-block;
+    }
+
+    .dropdown-content a:hover{
+    background: #97b8d0;
+    }
+
+    .dropdown:hover .navbtn{
+    background: #337ab7;
+    }
+
+    .dropdown:hover .dropdown-content{
+    display: block;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdown-content a{
+        display: block;
+        text-decoration: none;
+        padding: 12px 16px;
+        background: #337ab7;
+        color: white;
+    }
+    
+    .slick-slide img{
+        margin-left: 0;
+    }
+    .item1{
+        text-align: right;
+        width: fit-content;
+    }
+    
+    .searchbar{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .subbtn{
+        border: none;
+        background: white;
+        margin-left: -29px;
+        color: lightskyblue;
+    }
+    .loginregs{
+        text-align: center;
+    }
+    
+    .middlebar{
+        color: #337ab7;
+    }
+
+    .navbtn{
+        border: none;
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        background: #97b8d0;
+        color: #337ab7;
+    }
+    .bars{
+        float: left;
+    }
+
+    .label1{
+        margin-left: 10px;
+    }
+    
+    .feature{
+        text-align: center;
+    }
+    
+    .cost{
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .link-icon>li{
+        display: inline;
+        margin-left: 30px;
+    }
+    .link-icon{
+        text-align: left;
+    }
+
+    .facebook,.tumblr,.linkedin{
+        border: 2px solid #97b8d0;
+        border-radius: 100%;
+        width: 20px;
+        text-align: center;
+        background: #97b8d0;
+        color:white;
+    }
+
+    .bannerone{
+        padding-bottom: 12px;
+        width: 320px;
+    }
+    .bannertwo{
+        padding-bottom: 12px;
+        width: 320px;
+    }
+    .bannerthree{
+        padding-bottom: 12px;
+        width: 320px;
+    }
+
+    .bottom{
+        background: #001e34;
+        color:#337ab7;
+    }
+
+    .bottominput{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .addbtn{
+        margin-left: 90px;
+        background: #337ab7;
+        color: white;
+    }
+    
+    .newsletter{
+        text-align: center;
+    }
+    
+    .follow{
+        text-align: center;
+        margin-left: -20px;
+        padding-top: 12px;
+    }
+    
+    .subbtn2{
+        margin-top: 5px;
+        margin-left: 95px;
+    }
+    
+    .payment{
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .listpic>li{
+        margin-left: 0px;
+        display: inline-block;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .listpic>ul{
+        padding-left: 5px; 
+    }
+
+    .listpic{
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        width: 30px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+}
+ 
+@media(min-width: 375px){
+    .header{
+        background: #001e34;
+        color:#97b8d0;
+    }
+    .topnav{
+        text-align: center;
+        padding-left: 20px;
+    }
+    .topnav>li{
+        display: inline;
+        margin-left: 12px;
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .cart{
+        color:white;
+        border: solid 0px #97b8d0;
+        background: #97b8d0;
+        width: 20%;
+        text-align: left;
+    }
+    .tag{
+        position: relative;
+        left: 5px;
+        bottom: 18px;
+    }
+
+    .slick-slide img{
+        margin-left: 2%;
+    }
+
+    .item1>img{
+        width: 350px;
+    }
+    
+    .searchbar{
+        text-align: center;
+        margin-left: 80px;
+        position: relative;
+        /* left: 499px; */
+    }
+    .subbtn{
+        border: none;
+        background: white;
+        margin-left: -30px;
+        color: lightskyblue;
+        position: relative;
+        /* left: 497px; */
+    }
+    .loginregs{
+        text-align: center;
+    }
+    
+    .middlebar{
+        color: #337ab7;
+    }
+
+    /* .big_image{
+        width: 100%;
+    } */
+
+    .navbtn{
+        border: none;
+        width: 350px;
+        height: 30px;
+        text-align: center;
+        background: #97b8d0;
+        color: #337ab7;
+    }
+    .bars{
+        float: left;
+    }
+    
+    .feature{
+        text-align: center;
+        font-family: 'Open Sans Condensed', 'sans-serif';
+    }
+    
+    .cost{
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .link-icon>li{
+        display: inline;
+        margin-left: 30px;
+    }
+    .link-icon{
+        text-align: left;
+    }
+
+    .bannerone{
+        width: 375px;
+    }
+
+    .bannertwo{
+        width: 375px;
+    }
+
+    .bannerthree{
+        width: 375px;
+    }
+
+    .facebook,.tumblr,.linkedin{
+        border: 2px solid #97b8d0;
+        border-radius: 100%;
+        width: 20px;
+        text-align: center;
+        background: #97b8d0;
+        color:white;
+    }
+    
+    .bottom{
+        background: #001e34;
+        color:#337ab7;
+    }
+
+    .bottominput{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .addbtn{
+        margin-left: 136px;
+        padding: 0px;
+        background: #337ab7;
+        color:  white;
+    }
+    
+    .newsletter{
+        text-align: center;
+    }
+
+    
+    .follow{
+        text-align: center;
+        padding-top: 20px;
+        margin-left: -20px;
+    }
+    
+    .subbtn2{
+        margin-top: 5px;
+        margin-left: 125px;
+    }
+
+    .label1{
+        margin-left: 49px;
+    }
+
+    .link-icon{
+        margin-left: 30px;
+    }
+    .listpic{
+        margin-left: 50px;
+    }
+    /* .listpic>ul{
+        margin-left: 49px;
+    } */
+    .listpic>li{
+        display: inline-block;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .payment{
+        text-align: center;
+        margin-left: -20px;
+    }
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        margin-left: 0px;
+        width: 30px;
+    }
+}
+ 
+@media(min-width: 425px){
+    .header{
+        background: #001e34;
+        color:#97b8d0;
+    }
+    .topnav{
+        text-align: center;
+        padding-left: 20px;
+    }
+    .topnav>li{
+        display: inline;
+        margin-left: 12px;
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .cart{
+        color:white;
+        border: solid 0px #97b8d0;
+        background: #97b8d0;
+        width: 20%;
+        text-align: left;
+    }
+    .tag{
+        position: relative;
+        left: 5px;
+        bottom: 18px;
+    }
+
+    .bannerone{
+        width: 400px;
+        padding-bottom: 12px;
+    }
+    .bannertwo{
+        width: 425px;
+        padding-bottom: 12px;
+    }
+    .bannerthree{
+        width: 425px;
+        padding-bottom: 12px;
+    }
+
+    .slick-slide img{
+        margin-left: 10%;
+    }
+    .item1>img{
+        width: 400px;
+    }
+    
+    .searchbar{
+        text-align: center;
+        margin-left: 107px;
+    }
+    .subbtn{
+        border: none;
+        background: white;
+        margin-left: -30px;
+        color: lightskyblue;
+    }
+    .loginregs{
+        text-align: center;
+    }
+    
+    .middlebar{
+        color: #337ab7;
+    }
+
+    .navbtn{
+        border: none;
+        width: 390px;
+        height: 30px;
+        text-align: center;
+        background: #97b8d0;
+        color: #337ab7;
+    }
+    .bars{
+        float: left;
+    }
+    
+    .feature{
+        text-align: center;
+        font-family: 'Open Sans Condensed', 'sans-serif';
+    }
+    
+    .cost{
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .link-icon>li{
+        display: inline;
+        margin-left: 30px;
+    }
+    .link-icon{
+        text-align: left;
+    }
+
+    .facebook,.tumblr,.linkedin{
+        border: 2px solid #97b8d0;
+        border-radius: 100%;
+        width: 20px;
+        text-align: center;
+        background: #97b8d0;
+        color:white;
+    }
+    
+    .bottom{
+        background: #001e34;
+        color:#337ab7;
+    }
+
+    .bottominput{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .addbtn{
+        margin-left: 151px;
+        padding: 0px;
+        background: #337ab7;
+        color:  white;
+    }
+    
+    .newsletter{
+        text-align: center;
+    }
+    
+    .follow{
+        text-align: center;
+        padding-top: 20px;
+        margin-left: -20px;
+    }
+    
+    .subbtn2{
+        margin-top: 5px;
+        margin-left: 151px;
+    }
+
+    .label1{
+        margin-left: 67px;
+    }
+
+    .link-icon{
+        margin-left: 54px;
+    }
+    
+    .payment{
+        text-align: center;
+        margin-left: -20px;
+    }
+    .listpic{
+        padding-left: 5px;
+    }
+    .listpic>ul{
+        margin-left: 0px;
+    }
+    .listpic>li{
+        display: inline-block;
+        width: 50px;
+    }
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        margin-left:15px;
+        width: 30px;
+    }
+}
+ 
+@media (min-width: 768px) {
+     .topnav{
+         text-align: right;
+         padding-left: 0;
+     }
+     .topnav>li{
+         display: inline;
+         margin-left: 12px;
+     }
+     .span1,.span2{
+         border: 2px solid #337ab7;
+         background: #337ab7;
+         border-left-width: 25px;
+         float: left;
+     }
+     .login>li{
+         display: inline;
+     }
+     .login{
+         text-align: right;
+     }
+     .cart{
+         width: 8%;
+         text-align: right;
+         margin-left: 30%;
+     }
+     .tag{
+         position: relative;
+         left: 50px;
+         bottom: 18px;
+     }
+     .navbars>li{
+         display: inline;
+         margin-left: 0px;
+         padding-left: 0px;
+         margin-right: 65px;
+         font-size: 20px;
+     }
+     /* #navbars>ul{
+     } */
+     .searchbar{
+         position: relative;
+         left: 245px;
+         top: -20px;
+         margin-left: 53px;
+     }
+ 
+     .subbtn{
+         position: relative;
+         left: 245px;
+         top: -20px;
+     }
+ 
+     .bannertwo{
+         position: relative;
+         bottom: 20px;
+     }
+     .bannerthree{
+         position: relative;
+         bottom: 41px;
+     }
+ 
+     /* .big_image{
+         width:100%;
+     } */
+ 
+     .slick-slide img{
+         margin-left: 28%;
+     }
+ 
+     .sliders{
+         width: 100%;
+     }
+     .item1{
+         padding-right: 55px;
+         padding-left: 0px;
+         padding-top: 15px;
+     }
+     .item2{
+         padding-left: 16px;
+         padding-right: 0px;
+         padding-top: 15px;
+     }
+     .item3{
+         padding-right: 0px;
+         padding-left: 53px;
+         padding-top: 15px;
+     }
+     .item4{
+         padding-top: 28px;
+         padding-right: 0px;
+         padding-left: 15px;
+     }
+     .item5{
+         padding-top: 23px;
+         padding-left: 53px;
+         padding-right: 0px;
+     }
+ 
+     .bottominput{
+         width: auto;
+     }
+ 
+     .bottomlist>li{
+         display: inline;
+         padding-left: 0px;
+         text-align: center;
+     }
+ 
+     li.newsletter2{
+         margin-left: -40px;
+     }
+ 
+     .follow2{
+         margin-left: 125px;
+     }
+ 
+     .payment2{
+         margin-left: 150px;
+     }
+ 
+     .bottomlist2{
+         padding-left: 0px;
+     }
+ 
+     .bottomlist2>li{
+         display: inline;
+         margin-left: 0px;
+     }
+ 
+     .searcher{
+         width: 200px;
+     }
+ 
+     .linkicon2>li{
+         display: inline;
+         padding-left: 20px;
+     }
+ 
+     .linkicon2{
+         margin-top: -30px;
+         padding-left: 270px;
+     }
+ 
+     .image>img{
+         margin-top: -40px;;
+         padding-left: 530px;
+     }
+ 
+     .pic1,.pic2,.pic3,.pic4,.pic5{
+         margin-left: 0px;
+         width: 30px;
+     }
+ 
+     .listpic{
+         float: right;
+         margin-right: 43px;
+     }
+ 
+     .listpic>ul{
+         margin-left: 1px;
+         margin-right: 0px;
+         padding-right: 45px;
+         padding-left: 0px;
+     }
+ 
+     .listpic>li{
+         margin-right: 0px;
+         width: 25px;
+     }
+     
+     .addbtn{
+         margin-left: 99px;
+     }
+}
+ 
+@media(min-width: 992px){
+     .topnav{
+         text-align: right;
+         padding-left: 0;
+     }
+     .topnav>li{
+         display: inline;
+         margin-left: 12px;
+     }
+ 
+     .span3{
+         float: left;
+     }
+ 
+     .slick-slide img{
+         margin-left: 32%;
+     }
+ 
+     .loginregs2{
+         margin-left: 30px;
+     }
+ 
+     .tag{
+         position: relative;
+         left: 50px;
+         bottom: 18px;
+     }
+ 
+     .navbars2>li{
+         display: inline;
+         margin-left: 37px;
+         color: #337ab7;
+     }
+     .navbars2{
+         width: 625px;
+         margin-top: 16px;
+         margin-bottom: 0px;
+     }
+ 
+     .searchbar{
+         position: relative;
+         left: 720px;
+         top: 5px;
+         margin-left: 53px;
+     }
+ 
+     .subbtn{
+         position: relative;
+         left: 720px;
+         top: 5px;
+     }
+ 
+     .bannertwo{
+         position: relative;
+         bottom: 20px;
+     }
+     .bannerthree{
+         position: relative;
+         bottom: 41px;
+     }
+ 
+     .linkicon2>li{
+         display: inline;
+         padding-left: 20px;
+     }
+     .linkicon2{
+         margin-top: -30px;
+         padding-left: 270px;
+     }
+ 
+     .image>img{
+         margin-top: -40px;
+         padding-left: 530px;
+     }
+ 
+     .pic1,.pic2,.pic3,.pic4,.pic5{
+         margin-left: 0px;
+         width: 30px;
+         padding-right: 10px;
+     }
+ 
+     .listpic{
+         float: right;
+     }
+ 
+     .featureitems{
+         display: flex;
+         padding-left: 0px;
+     }
+     .featureitems>li{
+         display: inline;
+     }
+     .featuresecond{
+         margin-left: 30px;
+     }
+     .featurethird{
+         margin-left: 30px;
+     }
+     .featurefourth{
+         margin-left: 30px;
+     }
+ 
+     .arrow1{
+         text-align: center;
+     }
+     .viewall{
+         text-align: center;
+     }
+ 
+     .listpic>ul{
+         margin-left: 1px;
+         margin-right: 0px;
+         padding-right: 0px;
+         padding-left: 0px;
+     }
+     .listpic>li{
+         margin-right: 0px;
+     }
+ 
+     .shop{
+         text-align: center;
+         margin-right: 12px;
+     }
+     .footerlist{
+         list-style: none;
+     }
+ 
+     .info{
+         text-align: center;
+         margin-right: 12px;
+     }
+     .footerlist2{
+         list-style: none;
+     }
+ 
+     .follow3{
+         text-align: left;
+     }
+     .footerlist3{
+         padding-left: 0px;
+     }
+     .footerlist3>li{
+         display: inline;
+         margin-right: 30px;
+     }
+ 
+     .footerlist4{
+         padding-top: 12px;
+         display: inline-flex;
+         list-style: none;
+         padding-left: 0px;;
+     }
+     .footerlist4>ul{
+         padding-left: 0px;
+     }
+     .addbtn{
+         margin-left: 49px;
+     }
+}
+ 
+@media(min-width: 1200px){
+     .topnav{
+         text-align: right;
+     }
+     .topnav>ul{
+         display: inline;
+     }
+     .topnav>li{
+         display: inline;
+         margin-left: 12px;
+     }
+ 
+     .loginregs2{
+         margin-left: 6px;
+     }
+     .checkout{
+         margin-right: 50px;
+     }
+ 
+     .searchbar{
+         position: relative;
+         left: 919px;
+     }
+     .subbtn{
+         position: relative;
+         left: 920px;
+     }
+ 
+     .navbars2>li{
+         margin-left: 27px;
+         color: #337ab7;
+     }
+ 
+     .slick-slide img{
+         margin-left: 36%;
+     }
+ 
+     .shop{
+         text-align: center;
+         margin-left: -43px;
+     }
+ 
+     .info{
+         text-align: center;
+         margin-left: -43px;
+     }
+ 
+     .follow3{
+         text-align: left;
+     }
+ 
+     .footerlist4{
+         padding-left: 0px;
+     }
+}
+ 
