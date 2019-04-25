@@ -1,0 +1,29 @@
+id,name
+1,Desktop CPU
+2,Server CPU
+3,Mobile CPU
+4,Heatsinks
+5,Liquid Cooling
+6,Desktop Memory
+7,Laptop Memory
+8,Mac Memory
+9,Server Memory
+10,Memory Cards
+11,AMD Motherboards
+12,Intel Motherboards
+13,Server Motherboards
+14,Desktop Graphics Cards
+15,Workstation Graphics Cards
+16,Gaming Cases
+17,Server Chassis
+18,HTPC
+19,Case Fans
+20,Case Accessories
+21,Desktop HDD
+22,Laptop HDD
+23,Mac HDD
+24,Blu Ray Burners
+25,Blu Ray Drives
+26,CD Burners
+27,CD Drives
+28,Server Power Supplies

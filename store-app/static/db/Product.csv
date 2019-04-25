@@ -1,0 +1,51 @@
+id,name,img,price,category,subcategory
+[
+  {
+    "id": 1,
+    "name": "RYZEN 7 2700X",
+    "img": "240x180",
+    "price": "$249.99"
+  },
+  {
+    "id": 2,
+    "name": "RYZEN 5 2600X",
+    "img": "240x180",
+    "price": "$199.99"
+  },
+  {
+    "id": 3,
+    "name": "RYZEN 3 2200G",
+    "img": "240x180",
+    "price": "$99.99"
+  },
+  {
+    "id": 4,
+    "name": "Intel Core i9-9900K",
+    "img": "240x180",
+    "price": "$499.99"
+  },
+  {
+    "id": 5,
+    "name": "Intel Core i7-9700K",
+    "img": "240x180",
+    "price": "$409.99"
+  },
+  {
+    "id": 6,
+    "name": "Intel Core i5-9600K",
+    "img": "240x180",
+    "price": "$264.99"
+  },
+  {
+    "id": 7,
+    "name": "Intel Core i3-8350K",
+    "img": "240x180",
+    "price": "$184.99"
+  },
+  {
+    "id": 8,
+    "name": "Ryzen Threadripper 2950X",
+    "img": "240x180",
+    "price": "$839.99"
+  }
+]

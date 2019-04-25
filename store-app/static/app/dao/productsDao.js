@@ -19,7 +19,10 @@ class ProductsDao{
                        row.id,
                        row.name,
                        row.img,
-                       row.price
+                       row.price,
+                       row.brand,
+                       row.category,
+                       row.subcategory
                     ));
                };
                return product;
@@ -36,7 +39,10 @@ class ProductsDao{
                          row.id,
                          row.name,
                          row.img,
-                         row.price
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory
                     ));
                };
                return product;
@@ -87,6 +93,10 @@ class ProductsDao{
                return brand;
           })
      }
+
+     // findByCategory(category){
+     //      let sqlRequest = "SELECT * FROM Product WHERE id"
+     // }
 }
 
 module.exports = ProductsDao;
