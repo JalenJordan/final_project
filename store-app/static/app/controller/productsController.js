@@ -41,6 +41,27 @@ class ProductsController{
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
      };
+
+     findByCategory(req, res){
+          let category = req.params.category;
+          this.productsDao.findByCategory(category)
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+
+     findBySubCategory(req, res){
+          let subcategory = req.params.subcategory;
+          this.productsDao.findBySubCategory(subcategory)
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+
+     findByBrand(req, res){
+          let brand = req.params.brand;
+          this.productsDao.findByBrand(brand)
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
 }
 
 module.exports = ProductsController;

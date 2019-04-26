@@ -26,6 +26,21 @@ router.get("/cat", function(req,res){
      productsController.findAllCategories(res);
 });
 
+router.get("/cat/:category", function(req, res){
+     productsController.findByCategory(req, res);
+     console.log(req.params.category);
+});
+
+router.get("/subcat/:subcategory", function(req, res){
+     productsController.findBySubCategory(req, res);
+     console.log(req.params.subcategory);
+});
+
+router.get("/brands/:brand", function(req, res){
+     productsController.findByBrand(req, res);
+     console.log(req.params.brand);
+});
+
 module.exports = router;
 
 

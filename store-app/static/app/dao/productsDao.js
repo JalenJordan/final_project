@@ -94,9 +94,62 @@ class ProductsDao{
           })
      }
 
-     // findByCategory(category){
-     //      let sqlRequest = "SELECT * FROM Product WHERE id"
-     // }
+     findByCategory(category){
+          let sqlRequest = "SELECT * FROM Product WHERE category = " + category;
+          return this.common.findAll(sqlRequest).then(rows => {
+               let product = [];
+               console.log(rows);
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.category,
+                         row.subcategory
+                    ));
+               };
+               return product;
+          })
+     }
+
+     findBySubCategory(subcategory){
+          let sqlRequest = "SELECT * FROM Product WHERE subcategory = " + subcategory;
+          return this.common.findAll(sqlRequest).then(rows => {
+               let product = [];
+               console.log(rows);
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.category,
+                         row.subcategory
+                    ));
+               };
+               return product;
+          })
+     }
+
+     findByBrand(brand){
+          let sqlRequest = "SELECT * FROM Product WHERE brand = " + brand;
+          return this.common.findAll(sqlRequest).then(rows => {
+               let product = [];
+               console.log(rows);
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.category,
+                         row.subcategory
+                    ));
+               };
+               return product;
+          })
+     }
 }
 
 module.exports = ProductsDao;
