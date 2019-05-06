@@ -1,0 +1,869 @@
+body{
+     background-image: url(../images/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png);
+     color:white;
+}
+ 
+@media(min-width: 320px){
+     .xsheader{
+         background: #001e34;
+         color: white;
+    }
+    .xscontacts li{
+         display: inline-block;
+         text-align: center;
+         margin-right: 5%;
+    }
+    .xscontacts a{
+         color: white;
+    }
+ 
+    .xsnavbar{
+         background: #085394b0;
+    }
+    .xsnavbar img{
+         padding-left: 15%;
+    }
+    .xsmenu{
+         display: none;
+    }
+    .xsmenu li{
+         display: inline;
+         padding-left: 0;
+         margin-right: 10px;
+    }
+    .xsmenu a{
+         color: orange;
+         font-size: 15px;
+    }
+ 
+    .link-icon>li{
+     display: inline;
+     margin-left: 30px;
+     }
+     .link-icon{
+         text-align: left;
+     }
+ 
+    .facebook,.tumblr,.linkedin{
+     border: 2px solid #97b8d0;
+     border-radius: 100%;
+     width: 20px;
+     text-align: center;
+     background: #97b8d0;
+     color:white;
+     }
+ 
+     .bottom{
+         background: #001e34;
+         color:#337ab7;
+     }
+ 
+     .bottominput{
+         margin-left: 0px;
+         width: 100%;
+     }
+ 
+     .addbtn{
+         margin-left: 90px;
+         background: #337ab7;
+         color: white;
+     }
+ 
+     .newsletter{
+         text-align: center;
+     }
+ 
+     .follow{
+         text-align: center;
+         margin-left: -20px;
+         padding-top: 12px;
+     }
+ 
+     .subbtn2{
+         margin-top: 5px;
+         margin-left: 95px;
+     }
+ 
+     .payment{
+         text-align: center;
+         margin-left: -20px;
+     }
+ 
+     .listpic>li{
+         margin-left: 0px;
+         display: inline-block;
+         padding-top: 10px;
+         padding-left: 0px;
+     }
+     .listpic>ul{
+         padding-left: 5px; 
+     }
+ 
+     .listpic{
+         padding-left: 0px;
+         margin-left: 10px;
+     }
+ 
+     .pic1,.pic2,.pic3,.pic4,.pic5{
+         width: 30px;
+         margin-left: 0px;
+         margin-right: 20px;
+     }
+}
+ 
+@media(min-width: 375px){
+    .xsheader{
+        background: #001e34;
+        color: white;
+    }
+    .xscontacts li{
+        display: inline-block;
+        text-align: center;
+        margin-right: 10%;
+    }
+    .xscontacts a{
+        color: white;
+    }
+ 
+    .xsnavbar{
+        background: #085394b0;
+    }
+    .xsnavbar img{
+        padding-left: 20%;
+    }
+    .xsmenu{
+        display: none;
+    }
+    .xsmenu li{
+        display: inline;
+        padding-left: 0;
+        margin-right: 20px;
+    }
+    .xsmenu a{
+        color: orange;
+        font-size: 15px;
+    }
+ 
+    .item1>img{
+        width: 350px;
+    }
+ 
+    .searchbar{
+        text-align: center;
+        margin-left: 80px;
+        position: relative;
+        /* left: 499px; */
+    }
+    .subbtn{
+        border: none;
+        background: white;
+        margin-left: -30px;
+        color: lightskyblue;
+        position: relative;
+        /* left: 497px; */
+    }
+    .loginregs{
+        text-align: center;
+    }
+ 
+    .middlebar{
+        color: #337ab7;
+    }
+ 
+    .navbtn{
+        border: none;
+        width: 350px;
+        height: 30px;
+        text-align: center;
+        background: #97b8d0;
+        color: #337ab7;
+    }
+
+    .bars{
+        float: left;
+    }
+ 
+    .feature2{
+        text-align: center;
+        font-family: 'Open Sans Condensed', 'sans-serif';
+    }
+ 
+    .cost{
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .link-icon>li{
+        display: inline;
+        margin-left: 30px;
+    }
+    .link-icon{
+        text-align: left;
+    }
+ 
+ 
+    .facebook,.tumblr,.linkedin{
+        border: 2px solid #97b8d0;
+        border-radius: 100%;
+        width: 20px;
+        text-align: center;
+        background: #97b8d0;
+        color:white;
+    }
+ 
+    .bottom{
+         background: #001e34;
+        color:#337ab7;
+    }
+ 
+    .bottominput{
+        margin-left: 0px;
+        width: 100%;
+    }
+ 
+    .addbtn{
+        margin-left: 136px;
+        padding: 0px;
+        background: #337ab7;
+        color:  white;
+    }
+ 
+    .newsletter{
+        text-align: center;
+    }
+ 
+    .footer{
+        background: #144f827a;
+    }
+    ul{
+        list-style: none;
+    }
+    .nav-col {
+        padding: 30px 12px;
+        width: 25%;
+        box-sizing: border-box;
+        display: table-cell;
+        color: white;
+    }
+ 
+    .footer-site-map-title{
+        margin-bottom: 16px;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+ 
+    .nav-col a{
+        color: white;
+    }
+ 
+    .follow{
+        text-align: center;
+        padding-top: 20px;
+        margin-left: -20px;
+    }
+ 
+    .subbtn2{
+        margin-top: 5px;
+        margin-left: 125px;
+    }
+ 
+    .label1{
+        margin-left: 49px;
+    }
+ 
+    .link-icon{
+        margin-left: 30px;
+    }
+    .listpic{
+        margin-left: 50px;
+    }
+
+    .listpic>li{
+        display: inline-block;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .payment{
+        text-align: center;
+        margin-left: -20px;
+    }
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        margin-left: 0px;
+        width: 30px;
+    }
+}
+
+@media(min-width: 425px){
+    .header{
+        background: #001e34;
+        color:#97b8d0;
+    }
+    .topnav{
+        text-align: center;
+        padding-left: 20px;
+    }
+    .topnav>li{
+        display: inline;
+        margin-left: 12px;
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .cart{
+        color:white;
+        border: solid 0px #97b8d0;
+        background: #97b8d0;
+        width: 20%;
+        text-align: left;
+    }
+    .tag{
+        position: relative;
+        left: 5px;
+        bottom: 18px;
+    }
+    
+    .item1>img{
+        width: 400px;
+    }
+ 
+    .searchbar{
+        text-align: center;
+        margin-left: 107px;
+    }
+    .subbtn{
+        border: none;
+        background: white;
+        margin-left: -30px;
+        color: lightskyblue;
+    }
+    .loginregs{
+        text-align: center;
+    }
+ 
+    .middlebar{
+        color: #337ab7;
+    }
+ 
+    .navbtn{
+        border: none;
+        width: 390px;
+        height: 30px;
+        text-align: center;
+        background: #97b8d0;
+        color: #337ab7;
+    }
+    .bars{
+        float: left;
+    }
+ 
+    .feature{
+        text-align: center;
+        font-family: 'Open Sans Condensed', 'sans-serif';
+    }
+ 
+    .cost{
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .link-icon>li{
+        display: inline;
+        margin-left: 30px;
+    }
+    .link-icon{
+        text-align: left;
+    }
+ 
+    .facebook,.tumblr,.linkedin{
+        border: 2px solid #97b8d0;
+        border-radius: 100%;
+        width: 20px;
+        text-align: center;
+        background: #97b8d0;
+        color:white;
+    }
+ 
+    .bottom{
+        background: #001e34;
+        color:#337ab7;
+    }
+ 
+    .bottominput{
+        margin-left: 0px;
+        width: 100%;
+    }
+ 
+    .addbtn{
+        margin-left: 151px;
+        padding: 0px;
+        background: #337ab7;
+        color:  white;
+    }
+ 
+    .newsletter{
+        text-align: center;
+    }
+ 
+    .follow{
+        text-align: center;
+        padding-top: 20px;
+        margin-left: -20px;
+    }
+ 
+    .subbtn2{
+        margin-top: 5px;
+        margin-left: 151px;
+    }
+ 
+    .label1{
+        margin-left: 67px;
+    }
+ 
+    .link-icon{
+        margin-left: 54px;
+    }
+ 
+    .payment{
+        text-align: center;
+        margin-left: -20px;
+    }
+    .listpic{
+        padding-left: 5px;
+    }
+    .listpic>ul{
+        margin-left: 0px;
+    }
+    .listpic>li{
+        display: inline-block;
+        width: 50px;
+    }
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        margin-left:15px;
+        width: 30px;
+    }
+}
+ 
+@media (min-width: 768px) {
+     .searchbar{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .searchbtn{
+        background: orange;
+        color: white;
+        border: orange solid 2px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .contacts{
+        padding-left: 0;
+        text-align: center;
+    }
+    .contacts a{
+        color: white;
+    }
+    .contacts ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    .contacts li{
+        display: inline;
+        margin-right: 20px;
+    }
+ 
+    .accounts{
+        padding-left: 0;
+        text-align: justify;
+    }
+    .accounts a{
+        color: white;
+    }
+    .accounts ul{
+        list-style: none;
+    }
+    .accounts li{
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .navbar{
+        color: white;
+        padding-top: 10px;
+    }
+    .menu{
+        padding-left: 0;
+    }
+    .menu li{
+        display: inline;
+        margin-right: 5px;
+    }
+    .menu a{
+        color: orange;
+        font-size: 20px;
+    }
+    .topnav{
+        text-align: right;
+        padding-left: 0;
+    }
+    .topnav>li{
+        display: inline;
+        margin-left: 12px;
+    }
+    .span1,.span2{
+        border: 2px solid #337ab7;
+        background: #337ab7;
+        border-left-width: 25px;
+        float: left;
+    }
+    .login>li{
+        display: inline;
+    }
+    .login{
+        text-align: right;
+    }
+    .cart{
+        width: 8%;
+        text-align: right;
+        margin-left: 30%;
+    }
+    .tag{
+        position: relative;
+        left: 50px;
+        bottom: 18px;
+    }
+    .navbars>li{
+        display: inline;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-right: 65px;
+        font-size: 20px;
+    }
+
+    .searchbar{
+        position: relative;
+        margin-left: 53px;
+    }
+ 
+    .subbtn{
+        position: relative;
+        left: 245px;
+        top: -20px;
+    }
+ 
+    .sliders{
+        width: 100%;
+    }
+    .item1{
+        padding-right: 55px;
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    .item2{
+        padding-left: 16px;
+        padding-right: 0px;
+        padding-top: 15px;
+    }
+    .item3{
+        padding-right: 0px;
+        padding-left: 53px;
+        padding-top: 15px;
+    }
+    .item4{
+        padding-top: 28px;
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+    .item5{
+        padding-top: 23px;
+        padding-left: 53px;
+        padding-right: 0px;
+    }
+ 
+    .bottominput{
+        width: auto;
+    }
+
+    .bottomlist>li{
+        display: inline;
+        padding-left: 0px;
+        text-align: center;
+    }
+ 
+    li.newsletter2{
+        margin-left: -40px;
+    }
+
+    .follow2{
+        margin-left: 125px;
+    }
+
+    .payment2{
+        margin-left: 150px;
+    }
+ 
+    .bottomlist2{
+        padding-left: 0px;
+    }
+
+    .bottomlist2>li{
+        display: inline;
+        margin-left: 0px;
+    }
+ 
+    .searcher{
+        width: 200px;
+    }
+
+    .linkicon2>li{
+        display: inline;
+        padding-left: 20px;
+    }
+
+    .linkicon2{
+        margin-top: -30px;
+        padding-left: 270px;
+    }
+
+    .image>img{
+        margin-top: -40px;;
+        padding-left: 530px;
+    }
+ 
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        margin-left: 0px;
+        width: 30px;
+    }
+
+    .listpic{
+        float: right;
+        margin-right: 43px;
+    }
+
+    .listpic>ul{
+        margin-left: 1px;
+        margin-right: 0px;
+        padding-right: 45px;
+        padding-left: 0px;
+    }
+ 
+    .listpic>li{
+        margin-right: 0px;
+        width: 25px;
+    }
+    
+    .addbtn{
+        margin-left: 99px;
+    }
+}
+
+@media(min-width: 1024px){
+    .topnav{
+        text-align: right;
+        padding-left: 0;
+    }
+    .topnav>li{
+        display: inline;
+        margin-left: 12px;
+    }
+
+    .contacts{
+        text-align: left;
+    }
+    .span3{
+        float: left;
+    }
+ 
+     /* .slick-slide img{
+         margin-left: 32%;
+     } */
+ 
+    .loginregs2{
+        margin-left: 30px;
+    }
+
+    .tag{
+        position: relative;
+        left: 50px;
+        bottom: 18px;
+    }
+
+    .navbars2>li{
+        display: inline;
+        margin-left: 37px;
+        color: #337ab7;
+    }
+    .navbars2{
+        width: 625px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+ 
+    .searchbar{
+        position: relative;
+        margin-left: 53px;
+    }
+
+    .subbtn{
+        position: relative;
+        left: 720px;
+        top: 5px;
+    }
+
+    .linkicon2>li{
+        display: inline;
+        padding-left: 20px;
+    }
+    .linkicon2{
+        margin-top: -30px;
+        padding-left: 270px;
+    }
+ 
+    .image>img{
+        margin-top: -40px;
+        padding-left: 530px;
+    }
+
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        margin-left: 0px;
+        width: 30px;
+        padding-right: 10px;
+    }
+
+    .listpic{
+        float: right;
+    }
+
+    .featureitems{
+        display: flex;
+        padding-left: 0px;
+    }
+    .featureitems>li{
+        display: inline;
+    }
+    .featuresecond{
+        margin-left: 30px;
+    }
+    .featurethird{
+        margin-left: 30px;
+    }
+    .featurefourth{
+        margin-left: 30px;
+    }
+ 
+    .arrow1{
+        text-align: center;
+    }
+    .viewall{
+        text-align: center;
+    }
+
+    .listpic>ul{
+        margin-left: 1px;
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .listpic>li{
+        margin-right: 0px;
+    }
+
+    .shop{
+        text-align: center;
+        margin-right: 12px;
+    }
+    .footerlist{
+        list-style: none;
+    }
+ 
+    .info{
+        text-align: center;
+        margin-right: 12px;
+    }
+    .footerlist2{
+        list-style: none;
+    }
+
+    .menu li{
+        display: inline;
+        margin-right: 35px;
+    }
+
+    .follow3{
+        text-align: left;
+    }
+    .footerlist3{
+        padding-left: 0px;
+    }
+    .footerlist3>li{
+        display: inline;
+        margin-right: 30px;
+    }
+
+    .footerlist4{
+        padding-top: 12px;
+        display: inline-flex;
+        list-style: none;
+        padding-left: 0px;;
+    }
+    .footerlist4>ul{
+        padding-left: 0px;
+    }
+    .addbtn{
+        margin-left: 49px;
+    }
+}
+ 
+
+@media(min-width: 1200px){
+    .topnav{
+        text-align: right;
+    }
+    .topnav>ul{
+        display: inline;
+    }
+    .topnav>li{
+        display: inline;
+        margin-left: 12px;
+    }
+
+    .loginregs2{
+        margin-left: 6px;
+    }
+    .checkout{
+        margin-right: 50px;
+    }
+
+    .searchbar{
+        position: relative;
+        /* left: 919px; */
+    }
+    .subbtn{
+        position: relative;
+        left: 772px;
+    }
+
+    .navbars2>li{
+        margin-left: 27px;
+        color: #337ab7;
+    }
+
+    /* .slick-slide img{
+        margin-left: 36%;
+    } */
+
+    .shop{
+        text-align: center;
+        margin-left: -43px;
+    }
+
+    .info{
+        text-align: center;
+        margin-left: -43px;
+    }
+
+    .follow3{
+        text-align: left;
+    }
+
+    .footerlist4{
+        padding-left: 0px;
+    }
+}

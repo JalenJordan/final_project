@@ -371,6 +371,9 @@
      .slick-slide img{
           margin-left: 25%;
      }
+     .slick-slide{
+          text-align: right;
+     }
 }
 
 @media(min-width:1024px){
@@ -628,7 +631,6 @@
      }
      
      .firstsection{
-          display: inline-flex;
           text-align: center;
      }
      .firstsection>li{
@@ -724,5 +726,9 @@
           color: #fff;
           font-weight: 600;
           text-transform: uppercase;
+     }
+
+     .slider-width{
+          width: 600px;
      }
 }

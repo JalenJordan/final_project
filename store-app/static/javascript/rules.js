@@ -9,8 +9,8 @@ $(document).ready(function(){
      $(".feature2").slick({
           autoplay: true,
           autoplaySpeed: 2000,
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           arrows: false
      });
 })

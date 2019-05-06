@@ -12,6 +12,29 @@ class ProductsController{
           this.common = new ControllerCommon();
      }
 
+     ShowCPU(res){
+          this.productsDao.ShowCPU()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+     ShowCPU2(res){
+          this.productsDao.ShowCPU2()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+
+     ShowAll(res){
+          this.productsDao.ShowAll()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+
+     Similar(res){
+          this.productsDao.Similar()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+
      findAll(res){
           this.productsDao.findAll()
                .then(this.common.findSuccess(res))
@@ -22,7 +45,7 @@ class ProductsController{
           this.productsDao.findAllProducts()
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
-     }
+     };
 
      findAllSubCategories(res){
           this.productsDao.findAllSubCategories()

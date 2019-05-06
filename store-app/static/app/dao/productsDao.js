@@ -8,9 +8,91 @@ class ProductsDao{
      constructor(){
           this.common = new daoCommon();
      }
+     ShowCPU(){
+          let sqlRequest = "SELECT * FROM Product WHERE category = 1 AND brand =" + 1;
+          return this.common.findAll(sqlRequest).then(rows =>{
+               let product = [];
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription
+                    ));
+               };
+               return product;
+          });
+     }
+     ShowCPU2(){
+          let sqlRequest = "SELECT * FROM Product WHERE category = 1 AND brand =" + 12;
+          return this.common.findAll(sqlRequest).then(rows =>{
+               let product = [];
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription
+                    ));
+               };
+               return product;
+          });
+     }
 
+     Similar(){
+          let sqlRequest = "SELECT * FROM Product WHERE name LIKE 'RYZEN%'";
+          return this.common.findAll(sqlRequest).then(rows =>{
+               let product = [];
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand_name,
+                         row.category_name,
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
+                    ));    
+               };
+               return product;
+          });
+     }
+
+     ShowAll(){
+          let sqlRequest = "SELECT p.*,c.name as category_name, b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id";
+          return this.common.findAll(sqlRequest)
+          .then(rows =>{
+               let product = [];
+               console.log(rows)
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand_name,
+                         row.category_name,
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
+                    ));
+               };
+               return product;
+          });
+     }
+     
      findAll(){
-          let sqlRequest = "SELECT * FROM Product";
+          let sqlRequest = "SELECT p.*,c.name as category_name, b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id";
           return this.common.findAll(sqlRequest).then(rows => {
                let product = [];
                console.log(rows);
@@ -20,9 +102,12 @@ class ProductsDao{
                        row.name,
                        row.img,
                        row.price,
-                       row.brand,
-                       row.category,
-                       row.subcategory
+                       row.brand_name,
+                       row.category_name,
+                       row.subcategory,
+                       row.discription,
+                       row.brand_name,
+                       row.category_name
                     ));
                };
                return product;
@@ -30,7 +115,7 @@ class ProductsDao{
      }
 
      findAllProducts(){
-          let sqlRequest = "SELECT * FROM Product";
+          let sqlRequest = "SELECT p.*,c.name as category_name, b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id";
           return this.common.findAll(sqlRequest).then(rows => {
                let product = [];
                console.log(rows);
@@ -42,7 +127,10 @@ class ProductsDao{
                          row.price,
                          row.brand,
                          row.category,
-                         row.subcategory
+                         row.subcategory,
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
                     ));
                };
                return product;
@@ -104,9 +192,11 @@ class ProductsDao{
                          row.id,
                          row.name,
                          row.img,
+                         row.brand,
                          row.price,
                          row.category,
-                         row.subcategory
+                         row.subcategory,
+                         row.discription
                     ));
                };
                return product;
@@ -123,9 +213,11 @@ class ProductsDao{
                          row.id,
                          row.name,
                          row.img,
+                         row.brand,
                          row.price,
                          row.category,
-                         row.subcategory
+                         row.subcategory,
+                         row.discription
                     ));
                };
                return product;
@@ -142,9 +234,11 @@ class ProductsDao{
                          row.id,
                          row.name,
                          row.img,
+                         row.brand,
                          row.price,
                          row.category,
-                         row.subcategory
+                         row.subcategory,
+                         row.discription
                     ));
                };
                return product;

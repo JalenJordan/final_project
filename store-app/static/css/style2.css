@@ -542,7 +542,7 @@
      .footer{
           width: auto;
           text-align: center;
-          /* padding-left: 20%; */
+          padding-left: 7%;
           background: #144f827a;
      }
 
@@ -704,7 +704,7 @@
 
      .nav-col {
           padding: 30px 12px;
-          width: 25%;
+          width: 1%;
           box-sizing: border-box;
           display: table-cell;
           color: white;
