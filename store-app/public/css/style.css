@@ -1,6 +1,15 @@
 body{
     background-image: url(../images/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png);
 }
+
+a:hover, a:visited, a:active{
+    color: #ffa500;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
  
 @media(min-width: 320px){
     .header{
@@ -241,6 +250,16 @@ body{
         text-align: center;
         margin-top: 5%;
     }
+
+    .thanks img{
+        margin-left: 0%;
+    }
+
+    .heavy-boi{
+        padding-bottom: 0px;
+        color: white;
+        text-align: center;
+    }
 }
  
 @media(min-width: 375px){
@@ -413,6 +432,20 @@ body{
         padding-left: 20px;
         color: orange;
     }
+
+    .similar{
+        color:white;
+    }
+
+    .thanks img{
+        margin-left: 0%;
+    }
+
+    .heavy-boi{
+        padding-bottom: 0px;
+        color: white;
+        text-align: center;
+    }
 }
 
 
@@ -562,6 +595,20 @@ body{
         margin-left:15px;
         width: 30px;
     }
+
+    .similar2{
+        color: white;
+        text-align: center;
+    }
+    .thanks img{
+        margin-left: 0%;
+    }
+
+    .heavy-boi{
+        padding-bottom: 0px;
+        color: white;
+        text-align: center;
+    }
 }
 
 
@@ -570,197 +617,212 @@ body{
         text-align: right;
         padding-left: 0;
     }
-     .topnav li{
+    .topnav li{
         display: inline;
         margin-left: 12px;
-     }
-     .span1,.span2{
-         border: 2px solid #337ab7;
-         background: #337ab7;
-         border-left-width: 25px;
-         float: left;
-     }
+    }
+    .span1,.span2{
+        border: 2px solid #337ab7;
+        background: #337ab7;
+        border-left-width: 25px;
+        float: left;
+    }
 
-     .login li{
-         display: inline;
-     }
+    .login li{
+        display: inline;
+    }
 
-     .login{
-         text-align: right;
-         padding-left: 0;
-         padding-right: 100px;
-     }
+    .login{
+        text-align: right;
+        padding-left: 0;
+        padding-right: 100px;
+    }
 
-     .cart{
-         width: 8%;
-         text-align: right;
-         margin-left: 341px;
-     }
-     .tag{
-         position: relative;
-         left: 50px;
-         bottom: 18px;
-     }
-     .navbars li{
-         display: inline;
-         margin-left: 0px;
-         padding-left: 0px;
-         margin-right: 46px;
-         font-size: 12px;
-     }
-     .navbars2{
-         padding-left: 0px;
-         font-size: 30px;
-         text-align: center;
-         color: orange;
-     }
-     .navbars2 li{
-         display: inline;
-         padding-right: 30px;
-     }
+    .cart{
+        width: 8%;
+        text-align: right;
+        margin-left: 341px;
+    }
+    .tag{
+        position: relative;
+        left: 50px;
+        bottom: 18px;
+    }
+    .navbars li{
+        display: inline;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-right: 46px;
+        font-size: 12px;
+    }
+    .navbars2{
+        padding-left: 0px;
+        font-size: 30px;
+        text-align: center;
+        color: orange;
+    }
+    .navbars2 li{
+        display: inline;
+        padding-right: 30px;
+    }
+
+    .searchbar{
+        margin-top: 10px;
+        position: relative;
+        margin-left: 128px;
+    }
+
+    .subbtn{
+        position: relative;
+    }
  
-     .searchbar{
-         margin-top: 10px;
-         position: relative;
-         margin-left: 128px;
-     }
+    .slick-slide img{
+        margin-left: 5%;
+    }
+
+    .sliders-slide{
+        text-align: justify;
+    }
+
+    .feature3{
+        text-align: center;
+        margin-left: 13%;
+    }
+    .sliders{
+        width: 100%;
+    }
+    .item1{
+        padding-right: 55px;
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    .item2{
+        padding-left: 16px;
+        padding-right: 0px;
+        padding-top: 15px;
+    }
+    .item3{
+        padding-right: 0px;
+        padding-left: 53px;
+        padding-top: 15px;
+    }
+    .item4{
+        padding-top: 28px;
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+    .item5{
+        padding-top: 23px;
+        padding-left: 53px;
+        padding-right: 0px;
+    }
+
+    .middlebar{
+        color: orange;
+        text-align: center;
+    }
  
-     .subbtn{
-         position: relative;
-     }
+    .bottominput{
+        width: auto;
+    }
+
+    .bottomlist li{
+        display: inline;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    li.newsletter2{
+        margin-left: -40px;
+    }
  
-     .slick-slide img{
-         margin-left: 5%;
-     }
+    .follow2{
+        margin-left: 125px;
+    }
+
+    .payment2{
+        margin-left: 150px;
+    }
+
+    .bottomlist2{
+        padding-left: 0px;
+    }
  
-     .sliders-slide{
-         text-align: justify;
-     }
+    .bottomlist2 li{
+        display: inline;
+        margin-left: 1px;
+    }
+
+    .searcher{
+        width: 200px;
+    }
+
+    .linkicon2 li{
+        display: inline;
+        padding-left: 49px;
+    }
  
-     .feature3{
-         text-align: center;
-         margin-left: 13%;
-     }
-     .sliders{
-         width: 100%;
-     }
-     .item1{
-         padding-right: 55px;
-         padding-left: 0px;
-         padding-top: 15px;
-     }
-     .item2{
-         padding-left: 16px;
-         padding-right: 0px;
-         padding-top: 15px;
-     }
-     .item3{
-         padding-right: 0px;
-         padding-left: 53px;
-         padding-top: 15px;
-     }
-     .item4{
-         padding-top: 28px;
-         padding-right: 0px;
-         padding-left: 15px;
-     }
-     .item5{
-         padding-top: 23px;
-         padding-left: 53px;
-         padding-right: 0px;
-     }
+    .linkicon2{
+        margin-top: -30px;
+        padding-left: 196px;
+    }
+
+    .image img{
+        margin-top: -40px;;
+        padding-left: 486px;
+    }
  
-     .middlebar{
-         color: orange;
-         text-align: center;
-     }
- 
-     .bottominput{
-         width: auto;
-     }
- 
-     .bottomlist li{
-         display: inline;
-         padding-left: 0px;
-         text-align: center;
-     }
- 
-     li.newsletter2{
-         margin-left: -40px;
-     }
- 
-     .follow2{
-         margin-left: 125px;
-     }
- 
-     .payment2{
-         margin-left: 150px;
-     }
- 
-     .bottomlist2{
-         padding-left: 0px;
-     }
- 
-     .bottomlist2 li{
-         display: inline;
-         margin-left: 1px;
-     }
- 
-     .searcher{
-         width: 200px;
-     }
- 
-     .linkicon2 li{
-         display: inline;
-         padding-left: 49px;
-     }
- 
-     .linkicon2{
-         margin-top: -30px;
-         padding-left: 196px;
-     }
- 
-     .image img{
-         margin-top: -40px;;
-         padding-left: 486px;
-     }
- 
-     .pic1,.pic2,.pic3,.pic4,.pic5{
-          display: inline;
-          margin-left: 5px;
-     }
- 
-     .listpic{
+    .pic1,.pic2,.pic3,.pic4,.pic5{
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .listpic{
         float: right;
         margin-right: 23px;
-     }
+    }
  
-     .listpic ul{
-         margin-left: 1px;
-         margin-right: 0px;
-         padding-right: 45px;
-         padding-left: 0px;
-     }
- 
-     .listpic li{
-         margin-right: 0px;
-         width: 25px;
-     }
+    .listpic ul{
+        margin-left: 1px;
+        margin-right: 0px;
+        padding-right: 45px;
+        padding-left: 0px;
+    }
 
-     .icons{
-          padding-left: 169px;
-     }
-     .icons li{
-          padding-right: 40px;
-     }
+    .listpic li{
+        margin-right: 0px;
+        width: 25px;
+    }
 
-     .firstsection, .secondsection{
-         list-style: none;
-         display: inline-flex;
-         padding-left: 0;
-         text-align: center;
-         color: white;
-     }
+    .icons{
+        padding-left: 169px;
+    }
+    .icons li{
+        padding-right: 40px;
+    }
+
+    .firstsection, .secondsection, .thirdsection{
+        list-style: none;
+        display: inline-flex;
+        padding-left: 0;
+        text-align: center;
+        color: white;
+    }
+
+    .similar2{
+        text-align: center;
+        color: white;
+    }
+
+    .thanks img{
+        margin-left: 20%;
+    }
+
+    .heavy-boi{
+        padding-bottom: 300px;
+        color: white;
+        text-align: center;
+    }
 }
 
 
@@ -791,7 +853,10 @@ body{
     .feature3{
         text-align: center;
     }
- 
+
+    .features3 .slick-slide{
+        text-align: right;
+    }
     .slick-slide img{
         margin-left: 32%;
     }
@@ -976,6 +1041,16 @@ body{
     .footerlist4 ul{
         padding-left: 0px;
     }
+
+    .thanks img{
+        margin-left: 27%;
+    }
+
+    .heavy-boi{
+        padding-bottom: 300px;
+        color: white;
+        text-align: center;
+    }
 }
 
 
@@ -1095,5 +1170,20 @@ body{
     }
     button:hover{
         background: #ffa500;
+    }
+
+    .similar2{
+        text-align: center;
+        color: white;
+    }
+
+    .thanks img{
+        margin-left: 30%;
+    }
+
+    .heavy-boi{
+        padding-bottom: 300px;
+        color: white;
+        text-align: center;
     }
 }

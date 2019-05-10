@@ -13,9 +13,16 @@ router.get("/CPU2", function(req,res){
      productsController.ShowCPU2(res);
 });
 
+router.get("/GPU", function(req, res){
+     productsController.ShowGPU(res);
+})
 router.get("/all", function(req,res){
      productsController.ShowAll(res);
 });
+
+router.get("/name", function(req, res){
+     productsController.findByName(res);
+})
 
 router.get("/", function (req,res){
      productsController.findAll(res);

@@ -55,9 +55,9 @@ class Home extends React.Component{
                                         </div>
                                         <div className="col-sm-12 hidden-xs hidden-md hidden-lg">
                                              <ul className="navbars2">
-                                                  <li><i className="fa fa-home"></i></li>
+                                                  <li><Link to="/">Home</Link></li>
                                                   <li><Link to="/Products">Gallery</Link></li>
-                                                  <li><Link to="/">About</Link></li>
+                                                  <li><Link to=".">About</Link></li>
                                                   <li><Link to="/Products">ACCESSORIES</Link></li>
                                                   <li><Link to="/">FAQS</Link></li>
                                              </ul>
@@ -73,21 +73,21 @@ class Home extends React.Component{
                                    <Slider {...homeslider}>
                                         <div>
                                              <div className="slider-slide">
-                                                  <Link to="/Products"><img src="images/product-img/Ryzen 3.png" alt="" className="img-responsive"/></Link>
+                                                  <Link to="/items/3/RYZEN%203%202200G"><img src="images/product-img/Ryzen 3.png" alt="" className="img-responsive"/></Link>
                                                   <p>Ryzen 3 1200</p>
                                                   <label>$99.99</label>
                                              </div>
                                         </div>
                                         <div>
                                              <div className="slider-slide">
-                                                  <Link to="/Products"><img src="images/product-img/Ryzen 5.png" alt="" className="img-responsive"/></Link>
+                                                  <Link to="/items/2/RYZEN%205%202600X"><img src="images/product-img/Ryzen 5.png" alt="" className="img-responsive"/></Link>
                                                   <p>Ryzen 5 1600</p>
                                                   <label>$149.00</label>
                                              </div>
                                         </div>
                                         <div>
                                              <div className="slider-slide">
-                                                  <Link to="/Products"><img src="images/product-img/Ryzen 7.png" alt="" className="img-responsive"/></Link>
+                                                  <Link to="/items/1/RYZEN%207%20700X"><img src="images/product-img/Ryzen 7.png" alt="" className="img-responsive"/></Link>
                                                   <p>Ryzen 7 1700</p>
                                                   <label>$249.00</label>
                                              </div>
@@ -140,7 +140,7 @@ class Home extends React.Component{
                                         </li>
                                    </ul>
                                    <h4 className="arrow1"><i className="fas fa-arrow-right"></i></h4>
-                                   <h3 className="viewall">View All</h3>
+                                   <h3 className="viewall"><Link to="/Products">View All</Link></h3>
                               </div>
                               <div className="col-xs-6 hidden-sm hidden-md hidden-lg">
                                    <p>Vestibulum tincidunt tellus Link metus hendrer</p>

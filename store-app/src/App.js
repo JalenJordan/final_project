@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Header from './components/Header'
 import Products from './components/Products'
 import Single from './components/Single'
+import Checkout from './components/Checkout'
 import Footer from './components/Footer'
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path="/Products" component={Products}/>
             <Route path="/items/:id/:name" component={Single}/>
             <Route path="/store/:id" component={Products}/>
+            <Route path="/Checkout" component={Checkout}/>
             <Route render={() => <Redirect to="/"/>}/>
           </Switch>
         <Footer/>

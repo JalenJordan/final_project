@@ -5,8 +5,10 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-filter-search": "^1.0.8",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "react-search": "^2.1.0",
     "react-slick": "^0.24.0",
     "react-slick-carousel": "^0.14.9"
   },

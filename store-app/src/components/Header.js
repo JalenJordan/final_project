@@ -44,7 +44,7 @@ function Header(){
                                    </ul>
                               </div>
                               <div className="col-xs-9 col-sm-4 col-md-4 col-lg-6" >
-                                   <img src="images/logo-crop.png" alt="" className="img-responsive"/>
+                                   <img src="/images/logo-crop.png" alt="" className="img-responsive"/>
                               </div>
                               <div className="col-xs-3 col-sm-2 hidden-md hidden-lg cart">
                                    <i className="fas fa-shopping-cart">        0</i>
@@ -54,12 +54,12 @@ function Header(){
                               </div>
                               <div className="col-md-6 col-lg-6 hidden-sm hidden-xs">
                                    <ul className="navbars">
-                                        <li><Link to="/"><i className="fa fa-home"></i></Link></li>
+                                        <li><Link to="/">Home</Link></li>
                                         <li><Link to="/Products">Categories</Link></li>
                                         <li><Link to="bottom">About</Link></li>
-                                        <li><Link to="/Products">ACCESSORIES</Link></li>
-                                        <li><Link to="/about">FAQS</Link></li>
-                                        <li><Link to="/">MARKETING</Link></li>
+                                        <li><Link to="/Products">Accessories</Link></li>
+                                        <li><Link to="/about">Faqs</Link></li>
+                                        <li><Link to="/">Marketing</Link></li>
                                    </ul>
                               </div>
                          </div>

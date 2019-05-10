@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-dom'
+import {Link} from 'react-router-dom'
 
 function Footer(){
      return(
@@ -81,10 +81,10 @@ function Footer(){
                               <div className="col-md-2 col-lg-2 hidden-xs hidden-sm">
                                    <h5 className="shop">SHOP</h5>
                                    <ul className="footerlist">
-                                        <li></li>
-                                        <li>Categories</li>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li><Link to="/Products">Categories</Link></li>
                                         <li>About</li>
-                                        <li>ACCESSORIES</li>
+                                        <li><Link to="/Products">ACCESSORIES</Link></li>
                                         <li>FAQS</li>
                                         <li>MARKETING</li>
                                    </ul>
@@ -92,9 +92,9 @@ function Footer(){
                               <div className="col-md-2 col-lg-2 hidden-xs hidden-sm">
                                    <h5 className="info">INFO</h5>
                                    <ul className="footerlist2">
-                                        <li>Categories</li>
+                                        <li><Link to="/Products">Categories</Link></li>
                                         <li>About</li>
-                                        <li>ACCESSORIES</li>
+                                        <li><Link to="/Products">ACCESSORIES</Link></li>
                                         <li>FAQS</li>
                                         <li>MARKETING</li>
                                    </ul>

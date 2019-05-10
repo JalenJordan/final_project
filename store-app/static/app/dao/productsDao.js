@@ -46,6 +46,26 @@ class ProductsDao{
                return product;
           });
      }
+     
+     ShowGPU(){
+          let sqlRequest = "SELECT * FROM Product WHERE category = 4 AND brand=" + 13;
+          return this.common.findAll(sqlRequest).then(rows =>{
+               let product = [];
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription
+                    ));
+               };
+               return product;
+          });
+     }
 
      Similar(){
           let sqlRequest = "SELECT * FROM Product WHERE name LIKE 'RYZEN%'";
@@ -57,8 +77,8 @@ class ProductsDao{
                          row.name,
                          row.img,
                          row.price,
-                         row.brand_name,
-                         row.category_name,
+                         row.brand,
+                         row.category,
                          row.discription,
                          row.category_name,
                          row.brand_name
@@ -80,8 +100,8 @@ class ProductsDao{
                          row.name,
                          row.img,
                          row.price,
-                         row.brand_name,
-                         row.category_name,
+                         row.brand,
+                         row.category,
                          row.discription,
                          row.category_name,
                          row.brand_name
@@ -102,12 +122,35 @@ class ProductsDao{
                        row.name,
                        row.img,
                        row.price,
-                       row.brand_name,
-                       row.category_name,
+                       row.brand,
+                       row.category,
                        row.subcategory,
                        row.discription,
                        row.brand_name,
                        row.category_name
+                    ));
+               };
+               return product;
+          });
+     }
+
+     findByName(){
+          let sqlRequest = "SELECT * FROM Products WHERE name= '" + name + "' ";
+          return this.common.findAll(sqlRequest).then(rows =>{
+               let product = [];
+               console.log(rows);
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription,
+                         row.brand_name,
+                         row.category_name
                     ));
                };
                return product;

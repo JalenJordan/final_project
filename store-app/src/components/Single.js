@@ -124,7 +124,7 @@ class Single extends Component{
                                         <br/>
                                         <br/>
                                         <button>Add to Cart</button>
-                                        <Link to="/"><button>Buy Now</button></Link>
+                                        <Link to="/Checkout"><button>Buy Now</button></Link>
                                    </div>
                               </div>
                          </div>

@@ -12,6 +12,17 @@ class ProductsController{
           this.common = new ControllerCommon();
      }
 
+     ShowGPU(res){
+          this.productsDao.ShowGPU()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+     
+     findByName(res){;
+          this.productsDao.findByName()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
      ShowCPU(res){
           this.productsDao.ShowCPU()
                .then(this.common.findSuccess(res))

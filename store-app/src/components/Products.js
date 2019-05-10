@@ -2,9 +2,9 @@ import React,  {Component} from 'react'
 import {Link} from 'react-router-dom'
 import ProductTiles from './ProductTiles'
 import ProductTiles2 from './ProductTiles2'
+import ProductTiles4 from './ProductTiles4'
 import Loading from './Loading'
 import Slider from 'react-slick'
-
 class Products extends Component{
      constructor(){
           super()
@@ -12,7 +12,11 @@ class Products extends Component{
                loading: true,
                products: [],
                products2: [],
-               isFriendly: false
+               products4: [],
+               isFriendly: false,
+               isFriendly2: false,
+               isFriendly3: false,
+
           }
           this.handleChange = this.handleChange.bind(this)
      }
@@ -39,6 +43,14 @@ class Products extends Component{
                     products2: responseData
                })
           })
+          fetch("http://localhost:8000/api/store/GPU")
+          .then(response => response.json())
+          .then(responseData => {
+               this.setState({
+                    loading: false,
+                    products4: responseData
+               })
+          })
      }
      
      render(){
@@ -52,6 +64,7 @@ class Products extends Component{
 
           const productTiles = this.state.loading ? <Loading /> : this.state.products.map((item, idx) => <ProductTiles key={idx} id={idx + 1} {...item}/>)
           const productTiles2 = this.state.loading ?<Loading /> : this.state.products2.map((item, idx) => <ProductTiles2 key={idx} id={idx + 1} {...item}/>)
+          const productTiles4 = this.state.loading ? <Loading/> : this.state.products4.map((item, idx) => <ProductTiles4 key={idx} id={idx + 1}{...item}/>)
           return(
                <>
                     <div className="navigation">
@@ -82,7 +95,7 @@ class Products extends Component{
                     </div>
                     <div className="title">
                          <div className="container">
-                              <div className="row">
+                                <div className="row">
                                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <h1 className="hidden-xs hidden-sm"> FEATURED PRODUCTS</h1>
                                         <h4 className="hidden-md hidden-lg">FEATURED PRODUCTS</h4>
@@ -98,9 +111,11 @@ class Products extends Component{
                                         <Slider {...productslider}>
                                              <div>
                                                   <div className="slick-slide">
-                                                       <img className="img-responsive" src="images/product-img/Ryzen 3.png" alt=""/>
-                                                       <p>Ryzen 3</p>
-                                                       <label>$ 99.99</label>
+                                                       <Link to="/items/3/RYZEN%203%202200G">
+                                                            <img className="img-responsive" src="images/product-img/Ryzen 3.png" alt=""/>
+                                                            <p>Ryzen 3</p>
+                                                            <label>$ 99.99</label>
+                                                       </Link>
                                                   </div>
                                              </div>
                                              <div>
@@ -112,9 +127,10 @@ class Products extends Component{
                                              </div>
                                              <div>
                                                   <div className="slick-slide">
-                                                       <img className="img-responsive" src="images/product-img/Ryzen 7.png" alt=""/>
+                                                       <Link to="/items/1/RYZEN%207%202700X"><img className="img-responsive" src="images/product-img/Ryzen 7.png" alt=""/>
                                                        <p>Ryzen 7</p>
                                                        <label>$ 279.00</label>
+                                                       </Link>
                                                   </div>
                                              </div>
                                         </Slider>
@@ -134,10 +150,10 @@ class Products extends Component{
                                                        <input type="checkbox" name="isFriendly" checked={this.state.isFriendly} onChange={this.handleChange}/>
                                                        <label>PROCESSOR</label>
                                                        <hr/>
-                                                       <input type="checkbox" name="isFriendly" checked={this.state.isFriendly} onChange={this.handleChange}/>
+                                                       <input type="checkbox" name="isFriendly2" checked={this.state.isFriendly2} onChange={this.handleChange}/>
                                                        <label>GRAPHIC CARDS</label>
                                                        <hr/>
-                                                       <input type="checkbox" name="isFriendly" checked={this.state.isFriendly} onChange={this.handleChange}/>
+                                                       <input type="checkbox" name="isFriendly3" checked={this.state.isFriendly3} onChange={this.handleChange}/>
                                                        <label>MOTHERBOARD</label>
                                                   </form>
                                              </li>
@@ -146,6 +162,7 @@ class Products extends Component{
                                    <div className="col-sm-12 col-md-10 col-lg-10">
                                         <ul className="firstsection">{productTiles}</ul>
                                         <ul className="secondsection">{productTiles2}</ul>
+                                        <ul className="thirdsection">{productTiles4}</ul>
                                    </div>
                               </div>
                          </div>
@@ -158,7 +175,7 @@ class Products extends Component{
                                         <h4>Categories</h4>
                                         <ul className="icons">
                                              <li>
-                                                  <Link to="/"><img className="img-responsive" src="images/cpu-icon.png" alt=""/></Link>
+                                                  <Link to="/items/3/RYZEN%203%202200G"><img className="img-responsive" src="images/cpu-icon.png" alt=""/></Link>
                                                   <label>CPU</label>
                                              </li>
                                              <li>
@@ -166,7 +183,7 @@ class Products extends Component{
                                                   <label>MOBO</label>
                                              </li>
                                              <li>
-                                                  <Link to="/"><img className="img-responsive" src="images/graphic-card-icon.png" alt=""/></Link>
+                                                  <Link to="/items/18/MSI%20Gaming%20GTX%201070ti"><img className="img-responsive" src="images/graphic-card-icon.png" alt=""/></Link>
                                                   <label>GRAPHIC</label>
                                              </li>
                                         </ul>
