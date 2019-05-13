@@ -9,15 +9,29 @@ const productsController = new ProductsController();
 router.get("/CPU", function (req,res){
      productsController.ShowCPU(res);
 });
+
 router.get("/CPU2", function(req,res){
      productsController.ShowCPU2(res);
 });
 
 router.get("/GPU", function(req, res){
      productsController.ShowGPU(res);
-})
-router.get("/all", function(req,res){
-     productsController.ShowAll(res);
+});
+
+router.get("/GPU2", function(req, res){
+     productsController.ShowGPU2(res);
+});
+
+router.get("/GPU3", function(req, res){
+     productsController.ShowGPU3(res);
+});
+
+router.get("/MOBO", function(req,res){
+     productsController.ShowMOBO(res);
+});
+
+router.get("/CASES", function(req, res){
+     productsController.ShowCases(res);
 });
 
 router.get("/name", function(req, res){

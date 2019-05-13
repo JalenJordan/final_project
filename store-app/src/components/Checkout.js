@@ -79,17 +79,17 @@ class Checkout extends Component{
                                              <div className="dropdown-content">
                                                   <Link to="/Products">Gallery</Link>
                                                   <Link to="/">About</Link>
-                                                  <Link to="/Products">ACCESSORIES</Link>
+                                                  <Link to="/Products3">Accessories</Link>
                                                   <Link to="/">FAQS</Link>
                                              </div>
                                         </div>
                                    </div>
                                    <div className="col-sm-12 hidden-xs hidden-md hidden-lg">
                                         <ul className="navbars2">
-                                             <li><i className="fa fa-home"></i></li>
+                                             <li><Link to="/">Home</Link></li>
                                              <li><Link to="/Products">Gallery</Link></li>
                                              <li><Link to="/">About</Link></li>
-                                             <li><Link to="/Products">ACCESSORIES</Link></li>
+                                             <li><Link to="/Products3">Accessories</Link></li>
                                              <li><Link to="/">FAQS</Link></li>
                                         </ul>
                                    </div>

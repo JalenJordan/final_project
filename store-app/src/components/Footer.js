@@ -84,7 +84,7 @@ function Footer(){
                                         <li><Link to="/">Home</Link></li>
                                         <li><Link to="/Products">Categories</Link></li>
                                         <li>About</li>
-                                        <li><Link to="/Products">ACCESSORIES</Link></li>
+                                        <li><Link to="/Products3">Accessories</Link></li>
                                         <li>FAQS</li>
                                         <li>MARKETING</li>
                                    </ul>
@@ -94,9 +94,9 @@ function Footer(){
                                    <ul className="footerlist2">
                                         <li><Link to="/Products">Categories</Link></li>
                                         <li>About</li>
-                                        <li><Link to="/Products">ACCESSORIES</Link></li>
+                                        <li><Link to="/Products3">Accessories</Link></li>
                                         <li>FAQS</li>
-                                        <li>MARKETING</li>
+                                        <li>Marketing</li>
                                    </ul>
                               </div>
                               <div className="col-md-3 col-lg-3 hidden-xs hidden-sm">

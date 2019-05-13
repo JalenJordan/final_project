@@ -8,6 +8,7 @@ class ProductsDao{
      constructor(){
           this.common = new daoCommon();
      }
+
      ShowCPU(){
           let sqlRequest = "SELECT * FROM Product WHERE category = 1 AND brand =" + 1;
           return this.common.findAll(sqlRequest).then(rows =>{
@@ -21,7 +22,9 @@ class ProductsDao{
                          row.brand,
                          row.category,
                          row.subcategory,
-                         row.discription
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
                     ));
                };
                return product;
@@ -40,7 +43,9 @@ class ProductsDao{
                          row.brand,
                          row.category,
                          row.subcategory,
-                         row.discription
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
                     ));
                };
                return product;
@@ -48,7 +53,73 @@ class ProductsDao{
      }
      
      ShowGPU(){
-          let sqlRequest = "SELECT * FROM Product WHERE category = 4 AND brand=" + 13;
+          let sqlRequest = "SELECT p.*,c.name as category_name,b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id AND c.id = 4 AND p.id < 19 AND p.id > 15";
+          return this.common.findAll(sqlRequest).then(rows =>{
+               let product = [];
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
+                    ));
+               };
+               return product;
+          });
+     }
+     ShowGPU2(){
+          let sqlRequest ="SELECT p.*,c.name as category_name,b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id AND c.id = 4 AND p.id < 23 AND p.id > 19";
+          return this.common.findAll(sqlRequest).then(rows => {
+               let product = [];
+               console.log(rows)
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
+                    ));
+               };
+               return product;
+          });
+     }
+     ShowGPU3(){
+          let sqlRequest ="SELECT p.*,c.name as category_name,b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id AND c.id = 4 AND p.id < 16 AND p.id > 12";
+          return this.common.findAll(sqlRequest).then(rows => {
+               let product = [];
+               console.log(rows)
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
+                    ));
+               };
+               return product;
+          });
+     }
+
+     ShowMOBO(){
+          let sqlRequest = "SELECT * FROM Product WHERE category = 3";
           return this.common.findAll(sqlRequest).then(rows =>{
                let product = [];
                for(const row of rows){
@@ -67,6 +138,29 @@ class ProductsDao{
           });
      }
 
+     ShowCases(){
+          let sqlRequest="SELECT p.*,c.name as category_name,b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id AND c.id = 5";
+          return this.common.findAll(sqlRequest).then(rows =>{
+               let product = [];
+               console.log(rows)
+               for(const row of rows){
+                    product.push(new Product(
+                         row.id,
+                         row.name,
+                         row.img,
+                         row.price,
+                         row.brand,
+                         row.category,
+                         row.subcategory,
+                         row.discription,
+                         row.category_name,
+                         row.brand_name
+                    ));
+               };
+               return product;
+          })
+     }
+
      Similar(){
           let sqlRequest = "SELECT * FROM Product WHERE name LIKE 'RYZEN%'";
           return this.common.findAll(sqlRequest).then(rows =>{
@@ -83,29 +177,6 @@ class ProductsDao{
                          row.category_name,
                          row.brand_name
                     ));    
-               };
-               return product;
-          });
-     }
-
-     ShowAll(){
-          let sqlRequest = "SELECT p.*,c.name as category_name, b.name as brand_name FROM Product p INNER JOIN Category c ON p.category = c.id INNER JOIN Brand b ON p.brand = b.id";
-          return this.common.findAll(sqlRequest)
-          .then(rows =>{
-               let product = [];
-               console.log(rows)
-               for(const row of rows){
-                    product.push(new Product(
-                         row.id,
-                         row.name,
-                         row.img,
-                         row.price,
-                         row.brand,
-                         row.category,
-                         row.discription,
-                         row.category_name,
-                         row.brand_name
-                    ));
                };
                return product;
           });

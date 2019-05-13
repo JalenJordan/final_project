@@ -55,7 +55,6 @@ class Single extends Component{
                this.setState({
                     product: data[this.props.match.params.id - 1],
                     product2: data[this.props.match.params.id - 1]
-                    // product3: data[this.props.match.params.id - 1]
                })
           })
           fetch("http://localhost:8000/api/store/sim")
@@ -89,7 +88,7 @@ class Single extends Component{
                                              <div className="dropdown-content">
                                                   <Link to="/Products">Gallery</Link>
                                                   <Link to="/">About</Link>
-                                                  <Link to="/Products">ACCESSORIES</Link>
+                                                  <Link to="/Products3">Accessories</Link>
                                                   <Link to="/">FAQS</Link>
                                              </div>
                                         </div>
@@ -99,7 +98,7 @@ class Single extends Component{
                                              <li><i className="fa fa-home"></i></li>
                                              <li><Link to="/Products">Gallery</Link></li>
                                              <li><Link to="/">About</Link></li>
-                                             <li><Link to="/Products">ACCESSORIES</Link></li>
+                                             <li><Link to="/Products3">Accessories</Link></li>
                                              <li><Link to="/">FAQS</Link></li>
                                         </ul>
                                    </div>

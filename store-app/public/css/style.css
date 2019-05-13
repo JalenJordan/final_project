@@ -1,9 +1,9 @@
 body{
-    background-image: url(../images/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png);
+    background-image: url(../images/blue-tech-bg-25.png);
 }
 
 a:hover, a:visited, a:active{
-    color: #ffa500;
+    color: white;
     text-decoration: none;
 }
 
@@ -34,6 +34,7 @@ a{
     }
     button:hover{
         background: #ffa500;
+        color: white
     }
     .topnav{
         text-align: center;
@@ -180,7 +181,7 @@ a{
     }
     .bottom{
         background: #001e3475;
-        color: orange;
+        color: white;
     }
 
     .bottominput{
@@ -265,7 +266,7 @@ a{
 @media(min-width: 375px){
     .header{
         background: #001e34;
-        color:orange;
+        color:white;
     }
     .topnav{
         text-align: center;
@@ -378,7 +379,7 @@ a{
 
     .bottom{
         background: #001e3475;
-        color:#ffa500;
+        color:white;
     }
  
     .bottominput{
@@ -542,7 +543,7 @@ a{
  
     .bottom{
         background: #001e3475;
-        color:orange;
+        color:white;
     }
  
     .bottominput{
@@ -626,6 +627,10 @@ a{
         background: #337ab7;
         border-left-width: 25px;
         float: left;
+    }
+
+    ul{
+        list-style: none;
     }
 
     .login li{
@@ -991,7 +996,7 @@ a{
     }
 
     .bottom{
-        color: orange;
+        color: white;
         background: #001e3475;
         padding: 30px 12px;
     }
@@ -1085,6 +1090,7 @@ a{
         position: relative;
         margin-left: 160px;
         left: 768px;
+        color: black;
     }
     .subbtn{
         position: relative;

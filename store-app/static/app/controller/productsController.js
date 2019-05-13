@@ -17,12 +17,17 @@ class ProductsController{
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
      };
-     
-     findByName(res){;
-          this.productsDao.findByName()
+     ShowGPU2(res){
+          this.productsDao.ShowGPU2()
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
      };
+     ShowGPU3(res){
+          this.productsDao.ShowGPU3()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+     
      ShowCPU(res){
           this.productsDao.ShowCPU()
                .then(this.common.findSuccess(res))
@@ -34,12 +39,18 @@ class ProductsController{
                .catch(this.common.findError(res));
      };
 
-     ShowAll(res){
-          this.productsDao.ShowAll()
+     ShowMOBO(res){
+          this.productsDao.ShowMOBO()
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
      };
 
+     ShowCases(res){
+          this.productsDao.ShowCases()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+     
      Similar(res){
           this.productsDao.Similar()
                .then(this.common.findSuccess(res))
@@ -72,6 +83,12 @@ class ProductsController{
 
      findAllCategories(res){
           this.productsDao.findAllCategories()
+               .then(this.common.findSuccess(res))
+               .catch(this.common.findError(res));
+     };
+
+     findByName(res){
+          this.productsDao.findByName()
                .then(this.common.findSuccess(res))
                .catch(this.common.findError(res));
      };

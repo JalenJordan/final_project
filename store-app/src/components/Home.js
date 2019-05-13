@@ -48,7 +48,7 @@ class Home extends React.Component{
                                                   <div className="dropdown-content">
                                                        <Link to="/Products">Gallery</Link>
                                                        <Link to="/">About</Link>
-                                                       <Link to="/Products">ACCESSORIES</Link>
+                                                       <Link to="/Products3">Accessories</Link>
                                                        <Link to="/">FAQS</Link>
                                                   </div>
                                              </div>
@@ -57,8 +57,8 @@ class Home extends React.Component{
                                              <ul className="navbars2">
                                                   <li><Link to="/">Home</Link></li>
                                                   <li><Link to="/Products">Gallery</Link></li>
-                                                  <li><Link to=".">About</Link></li>
-                                                  <li><Link to="/Products">ACCESSORIES</Link></li>
+                                                  <li><Link to="/">About</Link></li>
+                                                  <li><Link to="/Products3">Accessories</Link></li>
                                                   <li><Link to="/">FAQS</Link></li>
                                              </ul>
                                         </div>

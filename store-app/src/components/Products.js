@@ -12,18 +12,8 @@ class Products extends Component{
                loading: true,
                products: [],
                products2: [],
-               products4: [],
-               isFriendly: false,
-               isFriendly2: false,
-               isFriendly3: false,
-
+               products4: []
           }
-          this.handleChange = this.handleChange.bind(this)
-     }
-
-     handleChange(event){
-          const {name, value, type, checked} = event.target
-          type === "checkbox" ? this.setState({ [name]: checked }) : this.setState({ [name]: value })
      }
 
      componentDidMount(){
@@ -43,7 +33,7 @@ class Products extends Component{
                     products2: responseData
                })
           })
-          fetch("http://localhost:8000/api/store/GPU")
+          fetch("http://localhost:8000/api/store/CPU")
           .then(response => response.json())
           .then(responseData => {
                this.setState({
@@ -76,17 +66,17 @@ class Products extends Component{
                                              <div className="dropdown-content">
                                                   <Link to="/Products">Gallery</Link>
                                                   <Link to="/">About</Link>
-                                                  <Link to="/Products">ACCESSORIES</Link>
+                                                  <Link to="/Products3">Accessories</Link>
                                                   <Link to="/">FAQS</Link>
                                              </div>
                                         </div>
                                    </div>
                                    <div className="col-sm-12 hidden-xs hidden-md hidden-lg">
                                         <ul className="navbars2">
-                                             <li><i className="fa fa-home"></i></li>
+                                             <li><Link to="/">Home</Link></li>
                                              <li><Link to="/Products">Gallery</Link></li>
                                              <li><Link to="/">About</Link></li>
-                                             <li><Link to="/Products">ACCESSORIES</Link></li>
+                                             <li><Link to="/Products3">Accessories</Link></li>
                                              <li><Link to="/">FAQS</Link></li>
                                         </ul>
                                    </div>
@@ -120,9 +110,10 @@ class Products extends Component{
                                              </div>
                                              <div>
                                                   <div className="slick-slide">
-                                                       <img className="img-responsive" src="images/product-img/Ryzen 5.png" alt=""/>
+                                                       <Link to="/items/2/RYZEN%205%202600X"><img className="img-responsive" src="images/product-img/Ryzen 5.png" alt=""/>
                                                        <p>Ryzen 5</p>
                                                        <label>$ 149.00 </label>
+                                                       </Link>
                                                   </div>
                                              </div>
                                              <div>
@@ -146,16 +137,19 @@ class Products extends Component{
                                    <div className="col-sm-7 col-md-2 col-lg-2">
                                         <ul className="sorter hidden-sm">
                                              <li>
-                                                  <form>
-                                                       <input type="checkbox" name="isFriendly" checked={this.state.isFriendly} onChange={this.handleChange}/>
-                                                       <label>PROCESSOR</label>
-                                                       <hr/>
-                                                       <input type="checkbox" name="isFriendly2" checked={this.state.isFriendly2} onChange={this.handleChange}/>
-                                                       <label>GRAPHIC CARDS</label>
-                                                       <hr/>
-                                                       <input type="checkbox" name="isFriendly3" checked={this.state.isFriendly3} onChange={this.handleChange}/>
-                                                       <label>MOTHERBOARD</label>
-                                                  </form>
+                                                  <Link to="/Products"><button>Processors</button></Link>
+                                             </li>
+                                             <hr/>
+                                             <li>
+                                                  <Link to="/Products2"><button>Motherboards</button></Link>
+                                             </li>
+                                             <hr/>
+                                             <li>
+                                                  <Link to="/Products3"><button>Cases</button></Link>
+                                             </li>
+                                             <hr/>
+                                             <li>
+                                                  <Link to="/Products4"><button>Graphic Cards</button></Link>
                                              </li>
                                         </ul>
                                    </div>
@@ -179,7 +173,7 @@ class Products extends Component{
                                                   <label>CPU</label>
                                              </li>
                                              <li>
-                                                  <Link to="/"><img className="img-responsive" src="images/motherboard-icon.png" alt=""/></Link>
+                                                  <Link to="/items/9/MSI%20Z270%20Gaming%20Plus"><img className="img-responsive" src="images/motherboard-icon.png" alt=""/></Link>
                                                   <label>MOBO</label>
                                              </li>
                                              <li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Loading(){
      return(
-          <p>Loading</p>
+          <img className="img-responsive" src="/images/logo-crop.png"/>
      )
 }
 
